@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="BE Scan">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="stylesheet" href="style.css">
+<title>BE Food Scanner</title>
+</head>
+<body>
+<header>
+  <h1>🇧🇪 Food Scanner</h1>
+  <nav>
+    <button id="tab-scan" class="active">Scan</button>
+    <button id="tab-history">History</button>
+  </nav>
+</header>
+
+<main id="view-scan">
+  <div class="viewport">
+    <video id="video" playsinline muted></video>
+    <div class="reticle"></div>
+  </div>
+  <div class="row">
+    <button id="btn-start" class="primary">Start camera</button>
+    <button id="btn-torch" hidden>🔦</button>
+  </div>
+  <form id="manual" class="row">
+    <input id="manual-ean" inputmode="numeric" pattern="[0-9]*" placeholder="Or type EAN (8/12/13 digits)">
+    <button>Look up</button>
+  </form>
+  <p id="status" class="status"></p>
+
+  <section id="result" class="card" hidden>
+    <div class="ean" id="r-ean"></div>
+    <div class="name" id="r-name"></div>
+    <div class="meta" id="r-meta"></div>
+    <div class="badge" id="r-source"></div>
+  </section>
+
+  <form id="unknown" class="card" hidden>
+    <div class="ean" id="u-ean"></div>
+    <p>Not found in Open Food Facts. Enter the name once &mdash; it will be remembered.</p>
+    <input id="u-name" placeholder="Product name" required autocomplete="off">
+    <input id="u-brand" placeholder="Brand / supermarket (optional)" autocomplete="off">
+    <div class="row">
+      <button class="primary">Save</button>
+      <button type="button" id="u-cancel">Skip</button>
+    </div>
+  </form>
+</main>
+
+<main id="view-history" hidden>
+  <div class="row">
+    <button id="btn-csv">Export CSV</button>
+    <button id="btn-backup">Backup JSON</button>
+    <label class="btn">Restore<input id="file-restore" type="file" accept="application/json" hidden></label>
+  </div>
+  <input id="filter" placeholder="Filter…">
+  <ul id="list"></ul>
+</main>
+
+<script src="vendor/zxing-library.min.js"></script>
+<script src="lib.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
