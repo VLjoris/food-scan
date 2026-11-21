@@ -2,7 +2,7 @@
 // record: { ean, name, brand, quantity, source: "off"|"manual", scans, firstSeen, lastSeen }
 const DB_NAME = "be-food-scan";
 const OFF_URL = "https://world.openfoodfacts.org/api/v2/product/";
-const OFF_FIELDS = "code,product_name,product_name_nl,product_name_fr,product_name_en,generic_name,brands,quantity";
+const OFF_FIELDS = "code,product_name,product_name_nl,product_name_fr,product_name_en,generic_name,brands,quantity,image_front_url";
 
 const $ = id => document.getElementById(id);
 const db = new Promise((res, rej) => {
@@ -27,46 +27,48 @@ const dbAll = () => tx("readonly", s => s.getAll());
 
 navigator.storage?.persist?.(); // ask iOS not to evict our data
 
-async function fetchOff(ean) {
+async function fetchOff(ean, info = {}) {
   const ctl = new AbortController();
   const timer = setTimeout(() => ctl.abort(), 8000);
   try {
     const r = await fetch(`${OFF_URL}${ean}.json?fields=${OFF_FIELDS}`, { signal: ctl.signal });
+    info.status = r.status;
     if (r.status === 404) return null;
     if (!r.ok) throw new Error("HTTP " + r.status);
     const j = await r.json();
-    if (j.status !== 1) return null;
-    const name = Lib.pickName(j.product);
-    if (!name) return null;
-    return {
-      name,
-      brand: (j.product.brands || "").split(",")[0].trim(),
-      quantity: j.product.quantity || "",
-    };
+    info.raw = j.product || j;
+    const m = Lib.mapOffProduct(j);
+    info.mapped = m;
+    if (!m || !m.name) return null;
+    return { name: m.name, brand: m.brand, quantity: m.quantity };
   } finally {
     clearTimeout(timer);
   }
 }
 
 // Returns { rec, state: "local"|"off"|"unknown"|"offline" }
-async function lookup(ean) {
+async function lookup(ean, info = {}) {
   const now = Date.now();
   const local = await dbGet(ean);
   if (local) {
     local.scans = (local.scans || 0) + 1;
     local.lastSeen = now;
     await dbPut(local);
+    info.state = "local";
     return { rec: local, state: "local" };
   }
   let off;
   try {
-    off = await fetchOff(ean);
+    off = await fetchOff(ean, info);
   } catch (e) {
+    info.error = e.message;
+    info.state = "offline";
     return { rec: { ean }, state: "offline" }; // don't prompt for a name when we just have no network
   }
-  if (!off) return { rec: { ean }, state: "unknown" };
+  if (!off) { info.state = "unknown"; return { rec: { ean }, state: "unknown" }; }
   const rec = { ean, ...off, source: "off", scans: 1, firstSeen: now, lastSeen: now };
   await dbPut(rec);
+  info.state = "off";
   return { rec, state: "off" };
 }
 
@@ -91,20 +93,54 @@ function show(rec, state) {
   $("r-source").textContent = rec.source === "manual" ? "entered by you" : "Open Food Facts";
 }
 
-async function handleCode(raw) {
-  const ean = Lib.normalizeEan(raw);
-  if (!ean) { $("status").textContent = "Invalid barcode: " + raw; return; }
+// ---- Debug panel (?debug=1 persists, ?debug=0 disables) ----
+const dbgParam = new URLSearchParams(location.search).get("debug");
+try {
+  if (dbgParam === "1") localStorage.setItem("debug", "1");
+  else if (dbgParam === "0") localStorage.removeItem("debug");
+} catch {}
+const DEBUG = dbgParam === "1" || (dbgParam !== "0" && (() => { try { return localStorage.getItem("debug") === "1"; } catch { return false; } })());
+if (DEBUG) $("debug").hidden = false;
+
+function debugUpdate(d) {
+  if (!DEBUG) return;
+  const set = (id, v) => { $(id).textContent = v == null ? "" : String(v); };
+  set("debug-raw", d.raw);
+  set("debug-format", d.format || "");
+  set("debug-ean", d.ean || (d.reject ? "rejected: " + d.reject : ""));
+  set("debug-state", d.state || "");
+  set("debug-name", d.name || "");
+  const flags = d.ean ? ["BE: " + Lib.isBelgianPrefix(d.ean), "variable-weight: " + Lib.isVariableWeight(d.ean)] : [];
+  set("debug-flags", flags.join(" · "));
+  set("debug-http", d.status ?? "");
+  set("debug-latency", d.latency == null ? "" : d.latency + " ms");
+  set("debug-mapped", d.mapped ? JSON.stringify(d.mapped, null, 1) : "");
+  set("debug-rawoff", d.rawOff ? JSON.stringify(d.rawOff, null, 1) : "");
+}
+
+async function handleCode(raw, format) {
+  const ean = Lib.normalizeEan(raw, format);
+  if (!ean) {
+    $("status").textContent = "Invalid barcode: " + raw;
+    debugUpdate({ raw, format, reject: "invalid length or checksum" });
+    return;
+  }
   if (busy || (ean === lastEan && Date.now() - lastAt < 3000)) return;
   busy = true; lastEan = ean; lastAt = Date.now();
   $("status").textContent = "Looking up " + ean + "…";
+  const info = {};
+  const t0 = performance.now();
+  debugUpdate({ raw, format, ean, state: "looking up…" });
   try {
-    const { rec, state } = await lookup(ean);
+    const { rec, state } = await lookup(ean, info);
+    debugUpdate({ raw, format, ean, state, name: rec.name, status: info.status, latency: Math.round(performance.now() - t0), mapped: info.mapped, rawOff: info.raw });
     $("status").textContent = state === "off" ? "Found online ✔" : state === "local" ? "Found in local DB ✔" : "";
     if (state !== "offline" && state !== "unknown") navigator.vibrate?.(60);
     show(rec, state);
     if (state === "unknown") pendingEan = ean;
   } catch (e) {
     $("status").textContent = "Error: " + e.message;
+    debugUpdate({ raw, format, ean, state: "error: " + e.message });
   } finally {
     busy = false;
   }
@@ -136,13 +172,20 @@ const { BrowserMultiFormatReader, DecodeHintType, BarcodeFormat } = ZXing;
 
 async function startScan() {
   if (!navigator.mediaDevices?.getUserMedia) { $("status").textContent = "Camera needs HTTPS."; return; }
-  const hints = new Map([[DecodeHintType.POSSIBLE_FORMATS, [BarcodeFormat.EAN_13, BarcodeFormat.EAN_8, BarcodeFormat.UPC_A, BarcodeFormat.UPC_E]], [DecodeHintType.TRY_HARDER, true]]);
+  const hints = new Map([[DecodeHintType.POSSIBLE_FORMATS, Lib.SCAN_FORMATS.map(n => BarcodeFormat[n])], [DecodeHintType.TRY_HARDER, true]]);
   reader = new BrowserMultiFormatReader(hints, 150);
+  // ZXing's video auto-invert + TRY_HARDER's inverted retry can lock every scan onto inverted frames (never decodes).
+  reader.createBinaryBitmap = function (video) {
+    this.getCaptureCanvasContext(video);
+    this.drawFrameOnCanvas(video);
+    const src = new ZXing.HTMLCanvasElementLuminanceSource(this.getCaptureCanvas(video), false);
+    return new ZXing.BinaryBitmap(new ZXing.HybridBinarizer(src));
+  };
   try {
     await reader.decodeFromConstraints(
       { video: { facingMode: { ideal: "environment" }, width: { ideal: 1280 }, height: { ideal: 720 } }, audio: false },
       "video",
-      res => { if (res) handleCode(res.getText()); }
+      res => { if (res) handleCode(res.getText(), BarcodeFormat[res.getBarcodeFormat()]); }
     );
     $("btn-start").textContent = "Stop camera";
     $("status").textContent = "Point at a barcode…";

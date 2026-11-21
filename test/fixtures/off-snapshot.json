@@ -1,0 +1,3045 @@
+{
+ "20047764": {
+  "fetchedAt": "2026-11-21T15:32:33.493Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "20047764",
+   "product": {
+    "brands": "Lidl",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:breads",
+     "en:pains-de-campagne"
+    ],
+    "code": "20047764",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/002/004/7764/front_fr.14.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Pain campagne gris",
+    "product_name_en": "Bruin boerenbrood",
+    "product_name_fr": "Pain campagne gris",
+    "product_name_nl": "Bruin brood",
+    "quantity": "800 g",
+    "stores_tags": [
+     "Lidl"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "20053222": {
+  "fetchedAt": "2026-11-21T15:32:39.550Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "20053222",
+   "product": {
+    "brands": "Lidl",
+    "categories_tags": [
+     "en:meats-and-their-products",
+     "en:meat-preparations"
+    ],
+    "code": "20053222",
+    "countries_tags": [
+     "en:germany",
+     "en:italy",
+     "en:united-kingdom"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/002/005/3222/front_en.28.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Guanciale",
+    "product_name_en": "Guanciale",
+    "quantity": "300g"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "20330743": {
+  "fetchedAt": "2026-11-21T15:33:03.906Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "20330743",
+   "product": {
+    "brands": "Bio Sonne Norma, Vemondo (Lidl)",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:meats-and-their-products",
+     "en:meat-alternatives",
+     "en:meat-analogues",
+     "en:vegetarian-balls",
+     "en:Vegan balls"
+    ],
+    "code": "20330743",
+    "countries_tags": [
+     "en:germany",
+     "en:ireland",
+     "en:united-kingdom"
+    ],
+    "generic_name": "Vegan meat balls",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/002/033/0743/front_en.111.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Plant based no meat balls",
+    "product_name_en": "Plant based no meat balls",
+    "product_name_fr": "Boulettes végétariennes",
+    "quantity": "35g",
+    "stores_tags": [
+     "Lidl",
+     "Lidl UK & Ireland"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "20416690": {
+  "fetchedAt": "2026-11-21T15:33:05.981Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "20416690",
+   "product": {
+    "brands": "Milbona",
+    "categories_tags": [
+     "en:dairies",
+     "en:fermented-foods",
+     "en:desserts",
+     "en:fermented-milk-products",
+     "en:dairy-desserts",
+     "en:fermented-dairy-desserts",
+     "en:yogurts",
+     "en:greek-style-yogurts",
+     "de:Grichischer Joghurt"
+    ],
+    "code": "20416690",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:germany",
+     "en:ireland",
+     "en:spain",
+     "en:united-kingdom"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/002/041/6690/front_en.230.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Greek Style Natural Light 2% fat",
+    "product_name_en": "Greek Style Natural Light 2% fat",
+    "product_name_fr": "Yaourt à la grecque teneur réduite en matières grasses",
+    "product_name_nl": "Iogurte Estilo Grego",
+    "quantity": "1000 g",
+    "stores_tags": [
+     "lidl"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "20553487": {
+  "fetchedAt": "2026-11-21T15:32:49.723Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "20553487",
+   "product": {
+    "brands": "Sol&Mar",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:fruits-and-vegetables-based-foods",
+     "en:vegetable-based-foods-and-beverages",
+     "en:canned-foods",
+     "en:vegetables-based-foods",
+     "en:canned-plant-based-foods",
+     "en:processed-vegetables",
+     "en:vegetables",
+     "en:canned-vegetables",
+     "en:vegetable-rods",
+     "en:artichokes",
+     "en:artichoke-hearts",
+     "en:canned-artichokes"
+    ],
+    "code": "20553487",
+    "countries_tags": [
+     "en:france"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/002/055/3487/front_fr.21.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Cœur d'artichauts",
+    "product_name_fr": "Cœur d'artichauts",
+    "quantity": "280g",
+    "stores_tags": [
+     "lidl"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "20810405": {
+  "fetchedAt": "2026-11-21T15:33:12.097Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "20810405",
+   "product": {
+    "brands": "Chef Select",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:condiments",
+     "en:spreads",
+     "en:plant-based-spreads",
+     "en:salted-spreads",
+     "en:sauces",
+     "en:dips",
+     "en:hummus",
+     "en:red-pepper-hummus"
+    ],
+    "code": "20810405",
+    "countries_tags": [
+     "en:austria",
+     "en:france",
+     "en:germany",
+     "en:italy",
+     "en:portugal"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/002/081/0405/front_en.70.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Hummus Spicy with red pepper",
+    "product_name_en": "Hummus pikant",
+    "product_name_fr": "",
+    "quantity": "200 g",
+    "stores_tags": [
+     "lidl"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "20960551": {
+  "fetchedAt": "2026-11-21T15:32:41.598Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "20960551",
+   "product": {
+    "brands": "Lidl",
+    "categories_tags": [
+     "en:snacks",
+     "en:salty-snacks",
+     "en:appetizers",
+     "en:chips-and-fries",
+     "en:crisps"
+    ],
+    "code": "20960551",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/002/096/0551/front_fr.19.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "ChipS hamburger",
+    "product_name_en": "Chips - Classic Burger Flavour",
+    "product_name_fr": "ChipS hamburger"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "54035850": {
+  "fetchedAt": "2026-11-21T15:30:45.950Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "54035850",
+   "product": {
+    "brands": "Galler",
+    "categories_tags": [
+     "en:snacks",
+     "en:sweet-snacks",
+     "en:cocoa-and-its-products",
+     "en:confectioneries",
+     "en:chocolate-candies",
+     "en:bars",
+     "en:candy-chocolate-bars"
+    ],
+    "code": "54035850",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/005/403/5850/front_en.3.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Dark Raspberry",
+    "product_name_en": "Dark Raspberry",
+    "product_name_fr": "Noir Framboise",
+    "quantity": "44g"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "80176800": {
+  "fetchedAt": "2026-11-21T15:28:44.067Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "80176800",
+   "product": {
+    "brands": "Ferrero",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads",
+     "en:hazelnut-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "80176800",
+    "countries_tags": [
+     "en:albania",
+     "en:austria",
+     "en:belgium",
+     "en:bosnia-and-herzegovina",
+     "en:bulgaria",
+     "en:croatia",
+     "en:cyprus",
+     "en:france",
+     "en:germany",
+     "en:greece",
+     "en:hungary",
+     "en:ireland",
+     "en:israel",
+     "en:lebanon",
+     "en:martinique",
+     "en:montenegro",
+     "en:morocco",
+     "en:pakistan",
+     "en:reunion",
+     "en:romania",
+     "en:saudi-arabia",
+     "en:senegal",
+     "en:serbia",
+     "en:slovenia",
+     "en:spain",
+     "en:switzerland",
+     "en:tunisia",
+     "en:turkey",
+     "en:united-arab-emirates",
+     "en:united-kingdom"
+    ],
+    "generic_name": "Nuss-Nugat-Creme",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/008/017/6800/front_en.321.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Nutella",
+    "product_name_en": "Nutella 750g",
+    "product_name_fr": "Nutella 750g",
+    "quantity": "750g",
+    "stores_tags": [
+     "City Market",
+     "Coop",
+     "Sainsbury's"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "80310891": {
+  "fetchedAt": "2026-11-21T15:29:32.888Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "80310891",
+   "product": {
+    "brands": "Kinder",
+    "categories_tags": [
+     "en:snacks",
+     "en:festive-foods",
+     "en:sweet-snacks",
+     "en:cocoa-and-its-products",
+     "en:confectioneries",
+     "en:chocolate-candies",
+     "en:chocolates",
+     "en:bars",
+     "en:chocolate-molds",
+     "en:easter-foods-and-drinks",
+     "en:chocolate-eggs",
+     "en:easter-eggs",
+     "en:hollow-chocolate-eggs",
+     "en:œufs-en-chocolat"
+    ],
+    "code": "80310891",
+    "countries_tags": [
+     "en:belgium",
+     "en:bulgaria",
+     "en:france",
+     "en:germany",
+     "en:greece",
+     "en:italy",
+     "en:poland",
+     "en:portugal",
+     "en:romania",
+     "en:spain",
+     "en:united-arab-emirates"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/008/031/0891/front_en.134.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Kinder Joy",
+    "product_name_en": "Kinder Joy",
+    "product_name_fr": "KINDER JOY 1 ŒUF (20g)",
+    "quantity": "20 g",
+    "stores_tags": [
+     "Michus Supermercados"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "3017620422003": {
+  "fetchedAt": "2026-11-21T15:28:44.034Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "3017620422003",
+   "product": {
+    "brands": "Ferrero, Nutella",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads",
+     "en:hazelnut-spreads",
+     "en:cocoa-and-hazelnuts-spreads",
+     "en:confectionary-based-spreads"
+    ],
+    "code": "3017620422003",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:germany",
+     "en:luxembourg"
+    ],
+    "generic_name": "Hazelnut And Cocoa Spread",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Nutella",
+    "product_name_en": "Nutella",
+    "product_name_fr": "Nutella",
+    "product_name_nl": "Nutella",
+    "quantity": "400 g e",
+    "stores_tags": [
+     "Aldi",
+     "Auchan",
+     "Carrefour",
+     "Casino",
+     "Intermarché",
+     "Leclerc",
+     "Lidl",
+     "Super U"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "3033491279706": {
+  "fetchedAt": "2026-11-21T15:30:29.734Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "3033491279706",
+   "product": {
+    "brands": "Danette, Danette creme dessert, Danone Danette",
+    "categories_tags": [
+     "en:dairies",
+     "en:desserts",
+     "en:dairy-desserts",
+     "en:entremets-mousses-and-creamy-puddings",
+     "en:chocolate-desserts",
+     "en:creamy-puddings",
+     "en:chocolate-creamy-puddings",
+     "en:refrigerated-chocolate-creamy-puddings",
+     "en:desserts-lactés"
+    ],
+    "code": "3033491279706",
+    "countries_tags": [
+     "en:france"
+    ],
+    "generic_name": "Crème dessert au chocolat",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/303/349/127/9706/front_fr.31.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Danette chocolat 125 g x 8",
+    "product_name_fr": "Danette chocolat 125 g x 8",
+    "quantity": "1 kg",
+    "stores_tags": [
+     "carrefour.fr"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "3073781069259": {
+  "fetchedAt": "2026-11-21T15:30:54.062Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "3073781069259",
+   "product": {
+    "brands": "Boursin, Boursin, Boursin atartiner/core cheese",
+    "categories_tags": [
+     "en:dairies",
+     "en:fermented-foods",
+     "en:fermented-milk-products",
+     "en:spreads",
+     "en:cheeses",
+     "en:salted-spreads",
+     "en:cheese-spreads",
+     "en:cheeses-perishable"
+    ],
+    "code": "3073781069259",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "generic_name": "Fromage",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/307/378/106/9259/front_fr.146.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Boursin Ail & Fines Herbes",
+    "product_name_en": "Boursin Ail & Fines Herbes",
+    "product_name_fr": "Boursin Ail & Fines Herbes",
+    "product_name_nl": "BOURSIN verse kaas look&f.kruiden",
+    "quantity": "250 g",
+    "stores_tags": [
+     "Auchan",
+     "Carrefour",
+     "Cora",
+     "Leclerc",
+     "carrefour.fr"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "3124480196262": {
+  "fetchedAt": "2026-11-21T15:29:49.095Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "3124480196262",
+   "product": {
+    "brands": "Schweppes",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:non-alcoholic-beverages",
+     "en:soft-drinks",
+     "en:carbonated-drinks",
+     "en:flavoured-soft-drinks",
+     "en:sodas"
+    ],
+    "code": "3124480196262",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "generic_name": "Soda",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/312/448/019/6262/front_en.43.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "PET 1,5L SCHWEPPES AGRUMES",
+    "product_name_en": "Schweppes Agrumes aux saveurs",
+    "product_name_fr": "PET 1,5L SCHWEPPES AGRUMES",
+    "product_name_nl": "SCHWEPPES Agrum'",
+    "quantity": "1,5L",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "3168930173311": {
+  "fetchedAt": "2026-11-21T15:30:37.841Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "3168930173311",
+   "product": {
+    "brands": "Doritos",
+    "categories_tags": [
+     "en:snacks",
+     "en:salty-snacks",
+     "en:appetizers",
+     "en:chips-and-fries",
+     "en:crisps",
+     "en:corn-chips"
+    ],
+    "code": "3168930173311",
+    "countries_tags": [
+     "en:france"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/316/893/017/3311/front_fr.3.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Doritos goût nature",
+    "product_name_en": "Doritos goût nature",
+    "product_name_fr": "Doritos goût nature",
+    "quantity": "160g",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "3176580026017": {
+  "fetchedAt": "2026-11-21T15:30:52.015Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "3176580026017",
+   "product": {
+    "brands": "SAINT BENOIT",
+    "categories_tags": [
+     "en:dairies",
+     "en:fermented-foods",
+     "en:fermented-milk-products",
+     "en:cheeses",
+     "en:soft-cheeses",
+     "en:cow-cheeses",
+     "en:soft-cheeses-with-bloomy-rind",
+     "en:french-cheeses",
+     "en:bries"
+    ],
+    "code": "3176580026017",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:germany",
+     "en:switzerland"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/317/658/002/6017/front_en.63.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Brie",
+    "product_name_en": "Brie",
+    "product_name_fr": "Saint Benoit Brie",
+    "product_name_nl": "SAINT BENOIT brie",
+    "quantity": "200 gram",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "3608580070764": {
+  "fetchedAt": "2026-11-21T15:28:57.292Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "3608580070764",
+   "product": {
+    "brands": "Bonne Maman",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads",
+     "en:hazelnut-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "3608580070764",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/360/858/007/0764/front_nl.24.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Pates a tartiner noisettes / hazelnootpasta",
+    "product_name_fr": "Pates a tartiner noisettes / hazelnootpasta",
+    "quantity": "1 - 360g",
+    "stores_tags": [
+     "colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "3608580121244": {
+  "fetchedAt": "2026-11-21T15:29:24.792Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "3608580121244",
+   "product": {
+    "brands": "Bonne Maman",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:hazelnut-spreads",
+     "en:chocolate-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "3608580121244",
+    "countries_tags": [
+     "en:belgium",
+     "en:luxembourg"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/360/858/012/1244/front_fr.3.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Pâte à tartiner noisettes",
+    "product_name_en": "Hazelnootpasta",
+    "product_name_fr": "Pâte à tartiner noisettes",
+    "product_name_nl": "Hazelnootpasta",
+    "quantity": "580 g",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "4056489013709": {
+  "fetchedAt": "2026-11-21T15:32:57.831Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "4056489013709",
+   "product": {
+    "brands": "Lidl Freeway",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:non-alcoholic-beverages",
+     "en:carbonated-drinks",
+     "en:functional-drinks",
+     "en:energy-drinks",
+     "en:sweetened-beverages"
+    ],
+    "code": "4056489013709",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/405/648/901/3709/front_fr.54.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Freeway Colossus Energy Drink 50cl",
+    "product_name_en": "Colossus Energy ⚡️",
+    "product_name_fr": "Freeway Colossus Energy Drink 50cl",
+    "quantity": "0,5l",
+    "stores_tags": [
+     "Lidl"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "4056489375135": {
+  "fetchedAt": "2026-11-21T15:32:47.672Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "4056489375135",
+   "product": {
+    "brands": "Bon Gelati, Lidl",
+    "categories_tags": [
+     "en:desserts",
+     "en:frozen-foods",
+     "en:snacks",
+     "en:frozen-desserts",
+     "en:sweet-snacks",
+     "en:cocoa-and-its-products",
+     "en:ice-creams-and-sorbets",
+     "en:frozen-sticks",
+     "en:ice-creams",
+     "en:ice-cream-bars",
+     "en:coated-ice-cream-bars",
+     "en:ice-cream-bars-coated-with-chocolate",
+     "en:vanilla-ice-cream-bars-coated-with-milk-chocolate-and-almonds"
+    ],
+    "code": "4056489375135",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:germany",
+     "en:netherlands",
+     "en:portugal"
+    ],
+    "generic_name": "Gelado de baunilha-Bourbon com 33% cobertura de chocolate de leite 5% amêndoa picada",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/405/648/937/5135/front_pt.53.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Mini Almond",
+    "product_name_en": "",
+    "product_name_fr": "Mini Almond",
+    "quantity": "432g",
+    "stores_tags": [
+     "Lidl"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "4056489572350": {
+  "fetchedAt": "2026-11-21T15:33:14.181Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "4056489572350",
+   "product": {
+    "brands": "Dulano",
+    "categories_tags": [
+     "en:meats-and-their-products",
+     "en:pork-and-its-products",
+     "en:prepared-meats",
+     "en:cooked-charcuterie",
+     "en:meats",
+     "en:prepared-pork-meats",
+     "en:cooked-pork-charcuterie",
+     "en:hams",
+     "en:white-hams"
+    ],
+    "code": "4056489572350",
+    "countries_tags": [
+     "en:germany"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/405/648/957/2350/front_de.65.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Kochschinken",
+    "product_name_en": "Delikatess Kochschinken",
+    "quantity": "200g",
+    "stores_tags": [
+     "lidl"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "4056489849629": {
+  "fetchedAt": "2026-11-21T15:32:55.782Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "4056489849629",
+   "product": {
+    "brands": "Alesto",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:fruit-based-foods-and-beverages",
+     "en:fruits-and-vegetables-based-foods",
+     "en:snacks",
+     "en:fruit-based-foods",
+     "en:salty-snacks",
+     "en:sweet-snacks",
+     "en:appetizers",
+     "en:chips-and-fries",
+     "en:dried-products",
+     "en:crisps",
+     "en:dried-plant-based-foods",
+     "en:dried-fruits",
+     "en:dried-bananas"
+    ],
+    "code": "4056489849629",
+    "countries_tags": [
+     "en:belgium",
+     "en:germany",
+     "en:portugal"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/405/648/984/9629/front_fr.7.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Chips bananes",
+    "product_name_en": "Banana chips",
+    "product_name_fr": "Chips bananes",
+    "quantity": "125 g",
+    "stores_tags": [
+     "Lidl"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5038862134583": {
+  "fetchedAt": "2026-11-21T15:30:19.577Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5038862134583",
+   "product": {
+    "brands": "innocent",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "nl:Verse sappen"
+    ],
+    "code": "5038862134583",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/503/886/213/4583/front_fr.26.400.jpg",
+    "nutriscore_grade": "b",
+    "product_name": "Apple & Mango",
+    "product_name_fr": "Apple & Mango",
+    "product_name_nl": "INNOCENT Apple & Mango",
+    "quantity": "90cl",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5202390016981": {
+  "fetchedAt": "2026-11-21T15:30:56.108Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5202390016981",
+   "product": {
+    "brands": "Violife",
+    "categories_tags": [
+     "en:Plantaardige kaas",
+     "en:Plantaardige kaas voor beleg",
+     "en:Vegetarisch",
+     "en:vegan en plantaardig"
+    ],
+    "code": "5202390016981",
+    "countries_tags": [
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/520/239/001/6981/front_fr.14.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "",
+    "product_name_en": "Violife Original plakken",
+    "product_name_fr": "original flavour slices",
+    "product_name_nl": "",
+    "quantity": "140 g",
+    "stores_tags": [
+     "Ah"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400112371428": {
+  "fetchedAt": "2026-11-21T15:31:52.909Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400112371428",
+   "product": {
+    "brands": "Delhaize",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:spreads",
+     "en:condiments",
+     "en:plant-based-spreads",
+     "en:salted-spreads",
+     "en:sauces",
+     "en:dips",
+     "en:hummus"
+    ],
+    "code": "5400112371428",
+    "countries_tags": [
+     "en:belgium",
+     "en:romania"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/011/237/1428/front_ro.31.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Humus picant",
+    "product_name_en": "",
+    "product_name_fr": "Houmous épicé",
+    "product_name_nl": "Hummus pikant",
+    "quantity": "200 g",
+    "stores_tags": [
+     "Delhaize",
+     "Mega Image"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400113647867": {
+  "fetchedAt": "2026-11-21T15:32:07.090Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400113647867",
+   "product": {
+    "brands": "Delhaize",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:breakfasts",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:breakfast-cereals",
+     "en:mueslis"
+    ],
+    "code": "5400113647867",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/011/364/7867/front_fr.24.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Muesli superfruit",
+    "product_name_fr": "Muesli superfruit",
+    "product_name_nl": "",
+    "quantity": "500 g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400113658191": {
+  "fetchedAt": "2026-11-21T15:32:09.140Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400113658191",
+   "product": {
+    "brands": "Delhaize",
+    "categories_tags": [
+     "en:snacks",
+     "en:sweet-snacks",
+     "en:biscuits-and-cakes",
+     "en:biscuits-and-crackers",
+     "en:biscuits",
+     "en:petit-beurre"
+    ],
+    "code": "5400113658191",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/011/365/8191/front_fr.3.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Petit Beurre",
+    "product_name_fr": "Petit Beurre",
+    "quantity": "150 g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400113704508": {
+  "fetchedAt": "2026-11-21T15:32:15.206Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400113704508",
+   "product": {
+    "brands": "Delhaize",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:breakfasts",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:breakfast-cereals",
+     "en:mueslis"
+    ],
+    "code": "5400113704508",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/011/370/4508/front_fr.3.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Granola",
+    "product_name_fr": "Granola",
+    "quantity": "350 g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400113704546": {
+  "fetchedAt": "2026-11-21T15:31:58.974Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400113704546",
+   "product": {
+    "brands": "Delhaize",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:breakfasts",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:breakfast-cereals",
+     "en:mueslis"
+    ],
+    "code": "5400113704546",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/011/370/4546/front_fr.3.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Granola amandes et myrtilles",
+    "product_name_fr": "Granola amandes et myrtilles",
+    "quantity": "400 g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400113710653": {
+  "fetchedAt": "2026-11-21T15:32:01.015Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400113710653",
+   "product": {
+    "brands": "Delhaize",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:breakfasts",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:breakfast-cereals",
+     "en:flakes",
+     "en:oats-and-their-products",
+     "en:cereal-flakes",
+     "en:rolled-flakes",
+     "en:rolled-oats"
+    ],
+    "code": "5400113710653",
+    "countries_tags": [
+     "en:belgium",
+     "en:luxembourg"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/011/371/0653/front_en.3.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Havervlokken",
+    "product_name_en": "Flocon d’avoine ( Fin )",
+    "product_name_nl": "Havervlokken",
+    "quantity": "500g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400113727569": {
+  "fetchedAt": "2026-11-21T15:31:50.859Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400113727569",
+   "product": {
+    "brands": "Delhaize",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:spreads",
+     "en:plant-based-spreads",
+     "en:nuts-and-their-products",
+     "en:oilseed-purees",
+     "en:nut-butters",
+     "en:mixed-nut-butters"
+    ],
+    "code": "5400113727569",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/011/372/7569/front_nl.17.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Noten Mix Paste Bio",
+    "product_name_nl": "Noten Mix Paste Bio",
+    "quantity": "250 g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400113739784": {
+  "fetchedAt": "2026-11-21T15:32:17.265Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400113739784",
+   "product": {
+    "brands": "Delhaize",
+    "categories_tags": [
+     "en:dairies",
+     "en:milks-liquid-and-powder",
+     "en:milks"
+    ],
+    "code": "5400113739784",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/011/373/9784/front_nl.3.400.jpg",
+    "nutriscore_grade": "b",
+    "product_name": "Melk Halfvol",
+    "product_name_nl": "Melk Halfvol",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141108170": {
+  "fetchedAt": "2026-11-21T15:31:28.580Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141108170",
+   "product": {
+    "brands": "Everyday",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:cocoa-and-its-products",
+     "en:beverage-preparations",
+     "en:instant-beverages",
+     "en:cocoa-and-chocolate-powders",
+     "en:cocoa-powders",
+     "en:instant-chocolate-powders",
+     "en:Everyday"
+    ],
+    "code": "5400141108170",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/110/8170/front_fr.17.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Choco Quick",
+    "product_name_fr": "Choco Quick",
+    "stores_tags": [
+     "Colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141130416": {
+  "fetchedAt": "2026-11-21T15:31:20.454Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141130416",
+   "product": {
+    "brands": "BONI",
+    "categories_tags": [
+     "en:dairies",
+     "en:fermented-foods",
+     "en:fermented-milk-products",
+     "en:cheeses"
+    ],
+    "code": "5400141130416",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/113/0416/front_nl.25.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "BONI Ricotta",
+    "product_name_nl": "BONI Ricotta",
+    "quantity": "250g",
+    "stores_tags": [
+     "Colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141241051": {
+  "fetchedAt": "2026-11-21T15:31:04.223Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141241051",
+   "product": {
+    "brands": "Boni, Colruyt",
+    "categories_tags": [],
+    "code": "5400141241051",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/124/1051/front_fr.3.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Cappelletti à la viande",
+    "product_name_fr": "Cappelletti à la viande",
+    "quantity": "500 g",
+    "stores_tags": [
+     "Colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141243833": {
+  "fetchedAt": "2026-11-21T15:31:12.331Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141243833",
+   "product": {
+    "brands": "BONI",
+    "categories_tags": [
+     "en:dairies",
+     "en:fermented-foods",
+     "en:fermented-milk-products",
+     "en:cheeses"
+    ],
+    "code": "5400141243833",
+    "countries_tags": [
+     "en:belgium",
+     "en:china"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/124/3833/front_fr.21.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Fromage de chèvre",
+    "product_name_en": "Fromage de chèvre",
+    "product_name_fr": "Fromage de chèvre",
+    "product_name_nl": "BONI geitenkaas rol",
+    "quantity": "125g",
+    "stores_tags": [
+     "Colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141266757": {
+  "fetchedAt": "2026-11-21T15:31:36.691Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141266757",
+   "product": {
+    "brands": "Boni, Boni Selection, Colruyt",
+    "categories_tags": [
+     "en:dairies",
+     "en:milks-liquid-and-powder",
+     "en:milks",
+     "en:homogenized-milks",
+     "en:pasteurised-products",
+     "en:semi-skimmed-milks",
+     "en:uht-milks",
+     "en:lactose-free-milk"
+    ],
+    "code": "5400141266757",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/126/6757/front_fr.50.400.jpg",
+    "nutriscore_grade": "b",
+    "product_name": "Lait sans lactose demi-écrémé",
+    "product_name_en": "Lait sans lactose demi-écrémé",
+    "product_name_fr": "Lait sans lactose demi-écrémé",
+    "product_name_nl": "Lactosevrije halfvolle melk",
+    "quantity": "1 L",
+    "stores_tags": [
+     "Colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141272291": {
+  "fetchedAt": "2026-11-21T15:31:34.642Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141272291",
+   "product": {
+    "brands": "Everyday",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:non-alcoholic-beverages",
+     "en:soft-drinks",
+     "en:carbonated-drinks",
+     "en:flavoured-soft-drinks",
+     "en:sodas",
+     "en:colas",
+     "en:sweetened-beverages"
+    ],
+    "code": "5400141272291",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/127/2291/front_fr.4.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Cola regular",
+    "product_name_en": "",
+    "product_name_fr": "Cola regular",
+    "quantity": "50 cl",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141399691": {
+  "fetchedAt": "2026-11-21T15:31:44.799Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141399691",
+   "product": {
+    "brands": "BONI",
+    "categories_tags": [
+     "nl:Chips/Borrelhapjes",
+     "nl:Overige snackchips"
+    ],
+    "code": "5400141399691",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/139/9691/front_en.24.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Cassave Kroepoek",
+    "product_name_en": "Cassave Kroepoek",
+    "product_name_fr": "Cassave Kroepoek",
+    "product_name_nl": "BONI cassave chips",
+    "quantity": "60g",
+    "stores_tags": [
+     "Colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141443622": {
+  "fetchedAt": "2026-11-21T15:31:18.402Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141443622",
+   "product": {
+    "brands": "Boni",
+    "code": "5400141443622",
+    "countries_tags": [
+     "en:luxembourg"
+    ],
+    "ecoscore_tags": [
+     "unknown"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/144/3622/front_en.3.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Fromage creux ail et fines herbes",
+    "product_name_en": "Fromage creux ail et fines herbes"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141562040": {
+  "fetchedAt": "2026-11-21T15:31:02.174Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141562040",
+   "product": {
+    "brands": "Boni",
+    "code": "5400141562040",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/156/2040/front_en.5.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "chocolade broodjes",
+    "product_name_en": "chocolade broodjes",
+    "quantity": "360g"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141605365": {
+  "fetchedAt": "2026-11-21T15:31:26.526Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141605365",
+   "product": {
+    "brands": "Boni",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:breads",
+     "en:sliced-breads",
+     "en:bran-sliced-breads"
+    ],
+    "code": "5400141605365",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/160/5365/front_fr.3.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Pain de mie",
+    "product_name_en": "Toastbrood",
+    "product_name_fr": "Pain de mie",
+    "quantity": "",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141610116": {
+  "fetchedAt": "2026-11-21T15:31:10.292Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141610116",
+   "product": {
+    "brands": "Boni",
+    "categories_tags": [
+     "en:meals",
+     "en:pasta-dishes",
+     "en:pastas-and-dumplings",
+     "en:stuffed-pastas",
+     "en:tortelloni"
+    ],
+    "code": "5400141610116",
+    "countries_tags": [
+     "en:luxembourg"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/161/0116/front_en.3.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Tortelloni fromage",
+    "product_name_en": "Tortelloni fromage"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400141835908": {
+  "fetchedAt": "2026-11-21T15:31:42.758Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400141835908",
+   "product": {
+    "brands": "Boni Selection",
+    "categories_tags": [
+     "en:snacks",
+     "en:sweet-snacks",
+     "en:biscuits-and-cakes",
+     "en:pastries",
+     "en:tiramisu",
+     "en:coffee-tiramisu"
+    ],
+    "code": "5400141835908",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/014/183/5908/front_fr.6.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Tiramisu",
+    "product_name_en": "Tiramisu",
+    "product_name_fr": "Tiramisu",
+    "quantity": "4x85g",
+    "stores_tags": [
+     "Colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400601001157": {
+  "fetchedAt": "2026-11-21T15:32:25.381Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400601001157",
+   "product": {
+    "brands": "365",
+    "code": "5400601001157",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/060/100/1157/front_fr.3.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Cooking salt",
+    "product_name_fr": "Cooking salt",
+    "quantity": "1 kg",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400601200123": {
+  "fetchedAt": "2026-11-21T15:32:31.449Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400601200123",
+   "product": {
+    "brands": "365",
+    "code": "5400601200123",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/060/120/0123/front_fr.18.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Crème en bombe",
+    "product_name_fr": "Crème en bombe",
+    "quantity": "250 g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5400601734390": {
+  "fetchedAt": "2026-11-21T15:32:23.334Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5400601734390",
+   "product": {
+    "brands": "365",
+    "categories_tags": [
+     "en:dairies",
+     "en:creams",
+     "en:uht-creams"
+    ],
+    "code": "5400601734390",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/540/060/173/4390/front_fr.13.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Cream UHT",
+    "product_name_fr": "Cream UHT",
+    "quantity": "200 ml",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5410018797413": {
+  "fetchedAt": "2026-11-21T15:29:40.983Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5410018797413",
+   "product": {
+    "brands": "Kwatta (H.J. Heinz Belgium N.V./S.A.)",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads"
+    ],
+    "code": "5410018797413",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "Choco",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/541/001/879/7413/front_en.34.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Kwatta melk-lait",
+    "product_name_en": "Kwatta melk-lait",
+    "product_name_fr": "Kwatta Lait",
+    "product_name_nl": "Kwatta melk-lait",
+    "quantity": "600 g",
+    "stores_tags": [
+     "Carrefour",
+     "Colruyt",
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5410018797420": {
+  "fetchedAt": "2026-11-21T15:28:52.877Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5410018797420",
+   "product": {
+    "brands": "Kwatta",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:snacks",
+     "en:spreads",
+     "en:sweet-snacks",
+     "en:sweet-spreads",
+     "en:cocoa-and-its-products",
+     "fr:pates-a-tartiner",
+     "en:hazelnut-spreads",
+     "en:chocolate-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "5410018797420",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:netherlands"
+    ],
+    "generic_name": "chocolate spread",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/541/001/879/7420/front_en.45.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Kwatta fondant",
+    "product_name_en": "Kwatta fondant",
+    "product_name_fr": "Kwatta fondant",
+    "quantity": "600 g",
+    "stores_tags": [
+     "Colruyt",
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5410018970083": {
+  "fetchedAt": "2026-11-21T15:29:08.548Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5410018970083",
+   "product": {
+    "brands": "Kwatta",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:snacks",
+     "en:spreads",
+     "en:sweet-snacks",
+     "en:sweet-spreads",
+     "en:confectioneries",
+     "fr:pates-a-tartiner",
+     "en:hazelnut-spreads",
+     "en:chocolate-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "5410018970083",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "generic_name": "Pâte à tartiner au chocolat blanc",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/541/001/897/0083/front_en.31.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Pâte à tartiner Kwatta Chocolat blanc",
+    "product_name_en": "Pâte à tartiner Kwatta Chocolat blanc",
+    "product_name_fr": "Pâte à tartiner au goût chocolat blanc",
+    "quantity": "400 g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5410093181114": {
+  "fetchedAt": "2026-11-21T15:30:35.794Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5410093181114",
+   "product": {
+    "brands": "VANDEMOORTELE",
+    "categories_tags": [
+     "nl:Kruidenierswaren/Droge voeding",
+     "nl:Sauzen (warm/koud)"
+    ],
+    "code": "5410093181114",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/541/009/318/1114/front_fr.3.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Mayonnaise aux œufs",
+    "product_name_en": "Mayonnaise aux œufs",
+    "product_name_fr": "Mayonnaise aux œufs",
+    "product_name_nl": "VANDEMOORTELE mayonaise met eieren",
+    "quantity": "500ml",
+    "stores_tags": [
+     "Noz"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5410106011001": {
+  "fetchedAt": "2026-11-21T15:29:00.418Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5410106011001",
+   "product": {
+    "brands": "BOSTO",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:cereals-and-potatoes",
+     "en:seeds",
+     "en:cereals-and-their-products",
+     "en:meals",
+     "en:cereal-based-dishes",
+     "en:cereal-grains",
+     "en:rice-dishes",
+     "en:rices",
+     "en:rices-for-paella",
+     "en:rices-for-risotto"
+    ],
+    "code": "5410106011001",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/541/010/601/1001/front_en.32.400.jpg",
+    "nutriscore_grade": "b",
+    "product_name": "Risotto&paella rice",
+    "product_name_en": "Mediterraneo Risotto & Paella rice",
+    "quantity": "500 g",
+    "stores_tags": [
+     "Delhaize",
+     "colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5410146417771": {
+  "fetchedAt": "2026-11-21T15:29:55.158Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5410146417771",
+   "product": {
+    "brands": "Activia",
+    "categories_tags": [
+     "en:dairies",
+     "en:fermented-foods",
+     "en:desserts",
+     "en:fermented-milk-products",
+     "en:dairy-desserts",
+     "en:fermented-dairy-desserts",
+     "en:yogurts",
+     "en:fermented-dairy-desserts-with-fruits",
+     "en:fruit-yogurts",
+     "en:bifidus-yogurts",
+     "en:fruit-bifidus-yogurts"
+    ],
+    "code": "5410146417771",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/541/014/641/7771/front_fr.20.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Activia fraise",
+    "product_name_en": "Activia Yoghurt Aardbei 125g",
+    "product_name_fr": "Activia fraise",
+    "product_name_nl": "",
+    "quantity": "500 g (4 x 125 g)",
+    "stores_tags": [
+     "Carrefour"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5410256429008": {
+  "fetchedAt": "2026-11-21T15:30:11.437Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5410256429008",
+   "product": {
+    "brands": "TIENSE SUIKER",
+    "categories_tags": [
+     "en:sweeteners",
+     "en:sugars",
+     "nl:Kruidenierswaren/Droge voeding"
+    ],
+    "code": "5410256429008",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:luxembourg"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/541/025/642/9008/front_fr.21.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Tirlement Sucre très fin",
+    "product_name_fr": "Tirlement Sucre très fin",
+    "product_name_nl": "TIENSE SUIKER zeer fijne suiker",
+    "quantity": "1kg",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5414807004027": {
+  "fetchedAt": "2026-11-21T15:29:16.668Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5414807004027",
+   "product": {
+    "brands": "Iglo",
+    "categories_tags": [
+     "en:seafood",
+     "en:fishes-and-their-products",
+     "en:fishes",
+     "en:breaded-products",
+     "en:fish-preparations",
+     "en:breaded-fish",
+     "en:fish-fingers"
+    ],
+    "code": "5414807004027",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/541/480/700/4027/front_fr.21.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Fish sticks",
+    "product_name_en": "Fish sticks",
+    "product_name_fr": "Fish sticks",
+    "quantity": "300 g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5414807007820": {
+  "fetchedAt": "2026-11-21T15:29:14.619Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5414807007820",
+   "product": {
+    "brands": "Iglo",
+    "categories_tags": [
+     "en:seafood",
+     "en:fishes-and-their-products",
+     "en:frozen-foods",
+     "en:fishes",
+     "en:breaded-products",
+     "en:fish-preparations",
+     "en:frozen-seafood",
+     "en:lean-fishes",
+     "en:breaded-fish",
+     "en:frozen-fishes",
+     "en:pollocks",
+     "en:alaska-pollock",
+     "en:fish-fingers",
+     "en:frozen-alaska-pollock"
+    ],
+    "code": "5414807007820",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/541/480/700/7820/front_fr.3.400.jpg",
+    "nutriscore_grade": "b",
+    "product_name": "FISH STICKS",
+    "product_name_en": "FISH STICKS",
+    "product_name_fr": "FISH STICKS",
+    "quantity": "450g",
+    "stores_tags": [
+     "Carrefour"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5420005201557": {
+  "fetchedAt": "2026-11-21T15:30:27.682Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5420005201557",
+   "product": {
+    "brands": "Delhaize, delhaize",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:fruits-and-vegetables-based-foods",
+     "en:vegetable-based-foods-and-beverages",
+     "en:condiments",
+     "en:vegetables-based-foods",
+     "en:culinary-plants",
+     "en:herbs-and-spices",
+     "en:aromatic-plants",
+     "en:herbs",
+     "en:parsley"
+    ],
+    "code": "5420005201557",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/542/000/520/1557/front_en.6.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Parsley",
+    "product_name_en": "Parsley",
+    "product_name_fr": "Persil Plat",
+    "product_name_nl": "Bladpeterselie",
+    "quantity": "100 g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5449000000439": {
+  "fetchedAt": "2026-11-21T15:28:46.273Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5449000000439",
+   "product": {
+    "brands": "Coca-Cola",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:non-alcoholic-beverages",
+     "en:soft-drinks",
+     "en:carbonated-drinks",
+     "en:flavoured-soft-drinks",
+     "en:sodas",
+     "en:colas",
+     "en:cola-with-sugar",
+     "en:sweetened-beverages"
+    ],
+    "code": "5449000000439",
+    "countries_tags": [
+     "en:albania",
+     "en:algeria",
+     "en:austria",
+     "en:belgium",
+     "en:cote-d-ivoire",
+     "en:croatia",
+     "en:czech-republic",
+     "en:democratic-republic-of-the-congo",
+     "en:france",
+     "en:georgia",
+     "en:germany",
+     "en:greece",
+     "en:italy",
+     "en:kazakhstan",
+     "en:madagascar",
+     "en:morocco",
+     "en:poland",
+     "en:reunion",
+     "en:slovenia",
+     "en:south-africa",
+     "en:sweden",
+     "en:switzerland",
+     "en:tunisia",
+     "en:ukraine",
+     "en:united-kingdom",
+     "en:united-states"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/544/900/000/0439/front_en.292.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Coca Cola Original Taste 1.5L",
+    "product_name_en": "Coca-Cola",
+    "product_name_fr": "Coca Cola Original taste",
+    "quantity": "1.5 L",
+    "stores_tags": [
+     "carrefour-market",
+     "cora",
+     "e-leclerc",
+     "lidl",
+     "magasin-u",
+     "metro",
+     "monoprix",
+     "spar"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5449000000996": {
+  "fetchedAt": "2026-11-21T15:28:47.382Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5449000000996",
+   "product": {
+    "brands": "COCA-COLA SERVICES SA/NV",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:non-alcoholic-beverages",
+     "en:soft-drinks",
+     "en:carbonated-drinks",
+     "en:flavoured-soft-drinks",
+     "en:sodas",
+     "en:colas",
+     "pt:bebidas cafeína"
+    ],
+    "code": "5449000000996",
+    "countries_tags": [
+     "en:albania",
+     "en:austria",
+     "en:belgium",
+     "en:bulgaria",
+     "en:canada",
+     "en:czech-republic",
+     "en:france",
+     "en:georgia",
+     "en:germany",
+     "en:ghana",
+     "en:greece",
+     "en:iceland",
+     "en:india",
+     "en:italy",
+     "en:latvia",
+     "en:lithuania",
+     "en:mexico",
+     "en:morocco",
+     "en:netherlands",
+     "en:poland",
+     "en:romania",
+     "en:senegal",
+     "en:spain",
+     "en:switzerland",
+     "en:turkey",
+     "en:ukraine",
+     "en:united-arab-emirates",
+     "en:united-kingdom",
+     "en:united-states"
+    ],
+    "generic_name": "Bebida refrescante aromatizada",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/544/900/000/0996/front_en.1129.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Coca-Cola Original",
+    "product_name_en": "Coca-Cola",
+    "product_name_fr": "Coca-Cola",
+    "quantity": "330 ml",
+    "stores_tags": [
+     "Michus Supermercados",
+     "ahorramas",
+     "carrefour",
+     "greggs",
+     "maxima",
+     "mercadona"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5449000133335": {
+  "fetchedAt": "2026-11-21T15:28:48.470Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5449000133335",
+   "product": {
+    "brands": "Coca-Cola",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:non-alcoholic-beverages",
+     "en:soft-drinks",
+     "en:artificially-sweetened-beverages",
+     "en:carbonated-drinks",
+     "en:flavoured-soft-drinks",
+     "en:diet-beverages",
+     "en:sodas",
+     "en:colas",
+     "en:diet-sodas",
+     "en:diet-cola-soft-drink"
+    ],
+    "code": "5449000133335",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/544/900/013/3335/front_en.142.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Coca-Cola Zero 6petfl BEL",
+    "product_name_en": "Coca-Cola Zero 6petfl BEL",
+    "product_name_fr": "Coca-Cola Zero",
+    "product_name_nl": "Coca-Cola Zero 6petfl BEL",
+    "quantity": "1.5l",
+    "stores_tags": [
+     "Albert Heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "5449000134578": {
+  "fetchedAt": "2026-11-21T15:28:49.577Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "5449000134578",
+   "product": {
+    "brands": "Coca cola zero",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:non-alcoholic-beverages",
+     "en:artificially-sweetened-beverages",
+     "en:carbonated-drinks",
+     "en:soft-drinks",
+     "en:diet-beverages",
+     "en:sodas",
+     "en:colas",
+     "en:diet-sodas",
+     "en:diet-cola-soft-drink"
+    ],
+    "code": "5449000134578",
+    "countries_tags": [
+     "en:france",
+     "en:switzerland"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/544/900/013/4578/front_de.3.400.jpg",
+    "nutriscore_grade": "b",
+    "product_name": "Zucker zero kalorien",
+    "quantity": "1500 ml"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "7300400481700": {
+  "fetchedAt": "2026-11-21T15:30:03.286Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "7300400481700",
+   "product": {
+    "brands": "wasa",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:snacks",
+     "en:cereals-and-potatoes",
+     "en:extruded-crispbreads",
+     "en:extruded-and-grilled-crispbread"
+    ],
+    "code": "7300400481700",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "Wasa Volkoren knäckebröd van volkoren roggemeel en roggemeel.",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/730/040/048/1700/front_en.183.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Wasa Volkoren",
+    "product_name_en": "Wasa Volkoren",
+    "product_name_fr": "Pain croustillant Volkoren",
+    "product_name_nl": "Wasa Volkoren",
+    "quantity": "260 g",
+    "stores_tags": [
+     "Albert Heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "7340001800944": {
+  "fetchedAt": "2026-11-21T15:29:57.205Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "7340001800944",
+   "product": {
+    "brands": "Barebells",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:dairies",
+     "en:dairy-drinks",
+     "en:flavoured-milks",
+     "en:chocolate-milks",
+     "en:dietary-supplements",
+     "en:bodybuilding-supplements",
+     "en:milkshakes",
+     "en:protein-shakes",
+     "en:milk-drinks"
+    ],
+    "code": "7340001800944",
+    "countries_tags": [
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/734/000/180/0944/front_en.115.400.jpg",
+    "nutriscore_grade": "not-applicable",
+    "product_name": "Milkshake chocoladesmaak",
+    "product_name_en": "Milkshake chocolate flavour",
+    "product_name_fr": "Milkshake saveur chocolat",
+    "product_name_nl": "Milkshake chocoladesmaak",
+    "quantity": "330 ml",
+    "stores_tags": [
+     "Ah"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "7394376616501": {
+  "fetchedAt": "2026-11-21T15:28:55.080Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "7394376616501",
+   "product": {
+    "brands": "Oatly",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:plant-based-foods-and-beverages",
+     "en:beverages",
+     "en:plant-based-foods",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:dairy-substitutes",
+     "en:plant-based-beverages",
+     "en:milk-substitutes",
+     "en:oats-and-their-products",
+     "en:plant-based-milk-alternatives",
+     "en:cereal-based-drinks",
+     "en:oat-based-drinks",
+     "en:haverdrink",
+     "en:plantaardige-drinks",
+     "en:plantaardige-zuivel-alternatieven",
+     "en:vegan-en-plantaardig",
+     "en:vegetarisch"
+    ],
+    "code": "7394376616501",
+    "countries_tags": [
+     "en:belgium",
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/739/437/661/6501/front_en.190.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Haver barista edition",
+    "product_name_en": "Oatly! Haver barista edition",
+    "product_name_fr": "Haver barista edition",
+    "product_name_nl": "Haver barista edition",
+    "quantity": "1000 ml",
+    "stores_tags": [
+     "Albert Heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "7612100018477": {
+  "fetchedAt": "2026-11-21T15:29:30.850Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "7612100018477",
+   "product": {
+    "brands": "Ovo maltine",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:snacks",
+     "en:spreads",
+     "en:sweet-snacks",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads"
+    ],
+    "code": "7612100018477",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:switzerland"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/761/210/001/8477/front_en.139.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Ovomaltine crunchy",
+    "product_name_en": "Ovomaltine crunchy",
+    "product_name_fr": "Pate Crunchy",
+    "product_name_nl": "",
+    "quantity": "360 g e",
+    "stores_tags": [
+     "Carrefour",
+     "E.Leclerc",
+     "Magasins U",
+     "carrefour.fr"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "7622201400958": {
+  "fetchedAt": "2026-11-21T15:29:38.935Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "7622201400958",
+   "product": {
+    "brands": "Milka",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:hazelnut-spreads",
+     "en:chocolate-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "7622201400958",
+    "countries_tags": [
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/762/220/140/0958/front_nl.13.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Milka chocolate paste",
+    "product_name_en": "Milka chocolate paste",
+    "product_name_fr": "Milka chocolate paste",
+    "product_name_nl": "Milka chocolate paste",
+    "quantity": "350 g",
+    "stores_tags": [
+     "Jumbo"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "7622201511661": {
+  "fetchedAt": "2026-11-21T15:28:51.772Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "7622201511661",
+   "product": {
+    "brands": "Côte d'Or",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads"
+    ],
+    "code": "7622201511661",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "generic_name": "Hazelnoten en cacao pasta",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/762/220/151/1661/front_nl.13.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Côte d'Or - Melk",
+    "product_name_fr": "Cote d’or",
+    "product_name_nl": "Côte d'Or - Melk",
+    "quantity": "300 g",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "7622201511784": {
+  "fetchedAt": "2026-11-21T15:28:50.713Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "7622201511784",
+   "product": {
+    "brands": "Côte d'Or",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads"
+    ],
+    "code": "7622201511784",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:morocco"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/762/220/151/1784/front_en.32.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Côte d’Or Noir de Noir",
+    "product_name_en": "Côte d’Or Noir de Noir",
+    "product_name_fr": "Côte d’Or Noir de Noir",
+    "product_name_nl": "Côte d’Or Noir de Noir",
+    "quantity": "300 g",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8000430133035": {
+  "fetchedAt": "2026-11-21T15:28:53.983Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8000430133035",
+   "product": {
+    "brands": "Galbani",
+    "categories_tags": [
+     "en:dairies",
+     "en:fermented-foods",
+     "en:fermented-milk-products",
+     "en:cheeses",
+     "en:italian-cheeses",
+     "en:stretched-curd-cheeses",
+     "en:mozzarella"
+    ],
+    "code": "8000430133035",
+    "countries_tags": [
+     "en:belgium",
+     "en:germany",
+     "en:netherlands",
+     "en:poland",
+     "en:portugal",
+     "en:spain",
+     "en:united-kingdom"
+    ],
+    "generic_name": "Verse volle kaas",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/800/043/013/3035/front_en.235.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Mozzarella",
+    "product_name_en": "Mozzarella",
+    "product_name_fr": "Mozzarella",
+    "product_name_nl": "Mozzarella",
+    "quantity": "125g",
+    "stores_tags": [
+     "Jumbo"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8000430135268": {
+  "fetchedAt": "2026-11-21T15:29:22.749Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8000430135268",
+   "product": {
+    "brands": "Egidio Galbani Srl",
+    "categories_tags": [
+     "en:dairies",
+     "en:fermented-foods",
+     "en:fermented-milk-products",
+     "en:cheeses",
+     "en:fresh-foods",
+     "en:cow-cheeses",
+     "en:italian-cheeses",
+     "en:pasteurised-products",
+     "en:stretched-curd-cheeses",
+     "en:mozzarella",
+     "en:cow-mozzarella",
+     "en:pasteurized-cheeses",
+     "en:industrial-cheese"
+    ],
+    "code": "8000430135268",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:italy",
+     "en:spain",
+     "en:switzerland",
+     "en:united-kingdom"
+    ],
+    "generic_name": "Fromage à pâte filée fraîche",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/800/043/013/5268/front_en.131.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Galbani mozzarella - maxi 250g",
+    "product_name_en": "Mozzarella MAXI",
+    "product_name_fr": "Galbani mozzarella - maxi 250g",
+    "quantity": "0.25 kg",
+    "stores_tags": [
+     "Delhaize",
+     "Magasins U",
+     "carrefour.fr"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8000500082379": {
+  "fetchedAt": "2026-11-21T15:28:45.179Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8000500082379",
+   "product": {
+    "brands": "Nutella, Ferrero Technical Services Srl",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "en:festive-foods",
+     "en:christmas-foods-and-drinks",
+     "fr:pates-a-tartiner",
+     "en:hazelnut-spreads",
+     "en:chocolate-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "8000500082379",
+    "countries_tags": [
+     "en:austria",
+     "en:belgium",
+     "en:bulgaria",
+     "en:czech-republic",
+     "en:france",
+     "en:germany",
+     "en:hungary",
+     "en:morocco",
+     "en:portugal",
+     "en:romania",
+     "en:serbia",
+     "en:slovakia",
+     "en:slovenia",
+     "en:spain",
+     "en:sweden",
+     "en:switzerland",
+     "en:turkey"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/800/050/008/2379/front_en.167.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Nutella",
+    "product_name_en": "Nutella",
+    "product_name_fr": "Nutella",
+    "quantity": "1000g",
+    "stores_tags": [
+     "Dia",
+     "Michus Supermercados",
+     "Migros"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8005110551215": {
+  "fetchedAt": "2026-11-21T15:30:05.343Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8005110551215",
+   "product": {
+    "brands": "Mutti",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:fruits-and-vegetables-based-foods",
+     "en:vegetable-based-foods-and-beverages",
+     "en:condiments",
+     "en:vegetables-based-foods",
+     "en:tomatoes-and-their-products",
+     "en:sauces",
+     "en:meal-sauces",
+     "en:tomato-sauces",
+     "en:pizza-sauces"
+    ],
+    "code": "8005110551215",
+    "countries_tags": [
+     "en:france",
+     "en:germany",
+     "en:netherlands",
+     "en:spain",
+     "en:united-kingdom"
+    ],
+    "generic_name": "Tomatensoße für Pizza",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/800/511/055/1215/front_en.131.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Pizzasauce Aromatica",
+    "product_name_en": "Pizza Sauce",
+    "product_name_fr": "Pizza sauce aromatizzata",
+    "quantity": "400g",
+    "stores_tags": [
+     "Ah"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8052575090384": {
+  "fetchedAt": "2026-11-21T15:28:56.188Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8052575090384",
+   "product": {
+    "brands": "Rigoni di Asiago",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads",
+     "en:hazelnut-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "8052575090384",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/805/257/509/0384/front_fr.34.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Nocciolata",
+    "product_name_fr": "Nocciolata",
+    "product_name_nl": "Nocciolata cacao & hazelnootpasta Bio",
+    "quantity": "650 g",
+    "stores_tags": [
+     "colruyt"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8052575090421": {
+  "fetchedAt": "2026-11-21T15:29:06.497Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8052575090421",
+   "product": {
+    "brands": "Rigoni di Asiago",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads",
+     "en:hazelnut-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "8052575090421",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/805/257/509/0421/front_fr.3.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Nocciolata",
+    "product_name_fr": "Nocciolata",
+    "quantity": "250g"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8710398160829": {
+  "fetchedAt": "2026-11-21T15:29:47.054Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8710398160829",
+   "product": {
+    "brands": "Lay's",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:snacks",
+     "en:cereals-and-potatoes",
+     "en:salty-snacks",
+     "en:appetizers",
+     "en:chips-and-fries",
+     "en:potatoes-and-their-products",
+     "en:crisps",
+     "en:salty-snacks-made-from-potato",
+     "en:crisps-made-from-reconstituted-potato"
+    ],
+    "code": "8710398160829",
+    "countries_tags": [
+     "en:belgium",
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/039/816/0829/front_en.60.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Oven baked original chips",
+    "product_name_en": "Oven baked original chips",
+    "product_name_fr": "Lay's Oven baked Natural",
+    "product_name_nl": "Oven baked original chips",
+    "quantity": "150 g e",
+    "stores_tags": [
+     "Jumbo"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8710400130444": {
+  "fetchedAt": "2026-11-21T15:33:30.585Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8710400130444",
+   "product": {
+    "brands": "Albert Heijn",
+    "categories_tags": [
+     "en:breakfasts",
+     "en:spreads",
+     "en:sweet-spreads",
+     "fr:pates-a-tartiner",
+     "en:chocolate-spreads",
+     "en:hazelnut-spreads",
+     "en:cocoa-and-hazelnuts-spreads"
+    ],
+    "code": "8710400130444",
+    "countries_tags": [
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/040/013/0444/front_nl.20.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Melk chocopasta",
+    "product_name_en": "Melk chocopasta",
+    "product_name_nl": "Melk chocopasta",
+    "quantity": "",
+    "stores_tags": [
+     "Albert Heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8710575159400": {
+  "fetchedAt": "2026-11-21T15:30:43.901Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8710575159400",
+   "product": {
+    "brands": "Haribo",
+    "categories_tags": [
+     "en:snacks",
+     "en:sweet-snacks",
+     "en:cocoa-and-its-products",
+     "en:confectioneries",
+     "en:chocolate-candies",
+     "en:bonbons",
+     "en:candies",
+     "en:marshmallows",
+     "en:cacao-et-dérivés",
+     "en:confiseries-chocolatées",
+     "en:snacks-sucrés"
+    ],
+    "code": "8710575159400",
+    "countries_tags": [
+     "en:belgium",
+     "en:france"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/057/515/9400/front_fr.25.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Chamallow",
+    "product_name_en": "Chamallow",
+    "product_name_fr": "haribo",
+    "quantity": "400g",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8710908937538": {
+  "fetchedAt": "2026-11-21T15:30:13.498Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8710908937538",
+   "product": {
+    "brands": "Knorr",
+    "categories_tags": [
+     "en:dried-products",
+     "en:broths",
+     "en:dried-products-to-be-rehydrated",
+     "en:meat-broths",
+     "en:dehydrated-broths",
+     "en:poultry-broth",
+     "en:bouillon-cubes"
+    ],
+    "code": "8710908937538",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:germany"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/090/893/7538/front_fr.12.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Bouillon de poule",
+    "product_name_fr": "Bouillon de poule",
+    "quantity": "1pcs",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8711327501461": {
+  "fetchedAt": "2026-11-21T15:30:21.617Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8711327501461",
+   "product": {
+    "brands": "Lipton, Unilever",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:plant-based-foods-and-beverages",
+     "en:beverages",
+     "en:hot-beverages",
+     "en:plant-based-beverages",
+     "en:teas",
+     "en:artificially-sweetened-beverages",
+     "en:tea-based-beverages",
+     "en:iced-teas"
+    ],
+    "code": "8711327501461",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/132/750/1461/front_fr.3.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Green iced tea",
+    "product_name_fr": "Green iced tea",
+    "quantity": "1.5 l"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8718907768078": {
+  "fetchedAt": "2026-11-21T15:33:16.298Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8718907768078",
+   "product": {
+    "brands": "Albert Heijn",
+    "categories_tags": [
+     "en:desserts",
+     "en:puddings"
+    ],
+    "code": "8718907768078",
+    "countries_tags": [
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/890/776/8078/front_nl.29.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Proteïne pudding chocolade",
+    "product_name_en": "Proteïne pudding chocolade",
+    "product_name_nl": "Proteïne pudding chocolade",
+    "quantity": "200 gram",
+    "stores_tags": [
+     "Ah"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8718907826051": {
+  "fetchedAt": "2026-11-21T15:33:24.479Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8718907826051",
+   "product": {
+    "brands": "Albert Heijn, Albert Heijn Terra",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:spreads",
+     "en:fats",
+     "en:plant-based-spreads",
+     "en:vegetable-fats",
+     "en:spreadable-fats",
+     "en:margarines",
+     "en:light-margarines"
+    ],
+    "code": "8718907826051",
+    "countries_tags": [
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/890/782/6051/front_nl.3.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Lekker op brood",
+    "product_name_en": "Lekker op brood",
+    "product_name_nl": "Lekker op brood",
+    "quantity": "5 gram",
+    "stores_tags": [
+     "Albert Heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8718907887137": {
+  "fetchedAt": "2026-11-21T15:33:22.388Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8718907887137",
+   "product": {
+    "brands": "Albert Heijn",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:breakfasts",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:breakfast-cereals",
+     "en:flakes",
+     "en:cereal-flakes",
+     "en:rolled-flakes",
+     "en:rolled-oats"
+    ],
+    "code": "8718907887137",
+    "countries_tags": [
+     "en:belgium",
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/890/788/7137/front_en.33.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "volkoren Havermout fijne vlokken",
+    "product_name_en": "volkoren Havermout fijne vlokken",
+    "product_name_nl": "Volkoren havermout fijne vlokken",
+    "quantity": "1000 gram",
+    "stores_tags": [
+     "albert-heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ }
+}

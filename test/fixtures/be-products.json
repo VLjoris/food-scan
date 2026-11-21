@@ -1,0 +1,1570 @@
+[
+ {
+  "ean": "3017620422003",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "nutella",
+  "label": "Nutella 400 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=3017620422003"
+  }
+ },
+ {
+  "ean": "3017620422003",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": false,
+  "group": "nutella",
+  "label": "Nutella 400 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.ah.be/producten/product/wi2406/nutella-hazelnootpasta"
+  }
+ },
+ {
+  "ean": "80176800",
+  "symbology": "EAN_8",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "nutella",
+  "label": "Nutella 750 g",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=80176800"
+  }
+ },
+ {
+  "ean": "80176800",
+  "symbology": "EAN_8",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "nutella",
+  "label": "Nutella 750 g",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.colruyt.be/nl/producten/11684"
+  }
+ },
+ {
+  "ean": "8000500082379",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "nutella",
+  "label": "Nutella 1000 g",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8000500082379"
+  }
+ },
+ {
+  "ean": "5449000000439",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "coca-cola",
+  "label": "Coca-Cola Original 1.5 L",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5449000000439"
+  }
+ },
+ {
+  "ean": "5449000000439",
+  "symbology": "EAN_13",
+  "store": "lidl",
+  "privateLabel": false,
+  "group": "coca-cola",
+  "label": "Coca-Cola Original 1.5 L",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=lidl&code=5449000000439"
+  }
+ },
+ {
+  "ean": "5449000000996",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": false,
+  "group": "coca-cola",
+  "label": "Coca-Cola Original 330 ml can",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.ah.be/producten/product/wi197280/coca-cola-coca-cola-regular-blik"
+  }
+ },
+ {
+  "ean": "5449000133335",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "coca-cola-zero",
+  "label": "Coca-Cola Zero Sugar 1.5 L",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.colruyt.be/nl/producten/37990"
+  }
+ },
+ {
+  "ean": "5449000134578",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "coca-cola-zero",
+  "label": "Coca-Cola Zero Sugar 6 x 1.5 L",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Colas/Cola-zero/Zero-Sugar-PET/p/S2006090600922230000"
+  }
+ },
+ {
+  "ean": "7622201511784",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "cote-dor-spread",
+  "label": "Côte d'Or Noir de Noir spread 300 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=7622201511784"
+  }
+ },
+ {
+  "ean": "7622201511784",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "cote-dor-spread",
+  "label": "Côte d'Or Noir de Noir spread 300 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.colruyt.be/nl/producten/16080"
+  }
+ },
+ {
+  "ean": "7622201511661",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "cote-dor-spread",
+  "label": "Côte d'Or milk spread 300 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=7622201511661"
+  }
+ },
+ {
+  "ean": "7622201511661",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "cote-dor-spread",
+  "label": "Côte d'Or milk spread 300 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.colruyt.be/nl/producten/16081"
+  }
+ },
+ {
+  "ean": "5410018797420",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "kwatta",
+  "label": "Kwatta fondant spread 600 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5410018797420"
+  }
+ },
+ {
+  "ean": "5410018797420",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "kwatta",
+  "label": "Kwatta fondant spread 600 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.colruyt.be/nl/producten/16240"
+  }
+ },
+ {
+  "ean": "8000430133035",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "galbani-mozzarella",
+  "label": "Galbani mozzarella 125 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8000430133035"
+  }
+ },
+ {
+  "ean": "8000430133035",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "galbani-mozzarella",
+  "label": "Galbani mozzarella 125 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.colruyt.be/nl/producten/26054"
+  }
+ },
+ {
+  "ean": "7394376616501",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "oatly-barista",
+  "label": "Oatly Barista Edition 1 L",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=7394376616501"
+  }
+ },
+ {
+  "ean": "7394376616501",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "oatly-barista",
+  "label": "Oatly Barista Edition 1 L",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.colruyt.be/nl/producten/32299"
+  }
+ },
+ {
+  "ean": "7394376616501",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": false,
+  "group": "oatly-barista",
+  "label": "Oatly Barista Edition 1 L",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "retailer",
+   "url": "https://www.ah.be/producten/product/wi520092/oatly-haver-barista-edition"
+  }
+ },
+ {
+  "ean": "8052575090384",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "nocciolata",
+  "label": "Nocciolata 650 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8052575090384"
+  }
+ },
+ {
+  "ean": "8052575090384",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "nocciolata",
+  "label": "Nocciolata 650 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=colruyt&code=8052575090384"
+  }
+ },
+ {
+  "ean": "3608580070764",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "bonne-maman-spread",
+  "label": "Bonne Maman hazelnut spread 360 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=3608580070764"
+  }
+ },
+ {
+  "ean": "3608580070764",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "bonne-maman-spread",
+  "label": "Bonne Maman hazelnut spread 360 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=colruyt&code=3608580070764"
+  }
+ },
+ {
+  "ean": "5410106011001",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "bosto-rice",
+  "label": "Bosto risotto & paella rice 500 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5410106011001"
+  }
+ },
+ {
+  "ean": "5410106011001",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "bosto-rice",
+  "label": "Bosto risotto & paella rice 500 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=colruyt&code=5410106011001"
+  }
+ },
+ {
+  "ean": "8052575090421",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "nocciolata",
+  "label": "Nocciolata 250 g",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8052575090421"
+  }
+ },
+ {
+  "ean": "5410018970083",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "kwatta",
+  "label": "Kwatta white chocolate spread 400 g",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5410018970083"
+  }
+ },
+ {
+  "ean": "5414807007820",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "iglo-fish-sticks",
+  "label": "Iglo fish sticks 450 g",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5414807007820"
+  }
+ },
+ {
+  "ean": "5414807004027",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "iglo-fish-sticks",
+  "label": "Iglo fish sticks 300 g",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5414807004027"
+  }
+ },
+ {
+  "ean": "8000430135268",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "galbani-mozzarella",
+  "label": "Galbani mozzarella maxi 250 g",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8000430135268"
+  }
+ },
+ {
+  "ean": "3608580121244",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "bonne-maman-spread",
+  "label": "Bonne Maman hazelnut spread 580 g",
+  "kind": "variant",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=3608580121244"
+  }
+ },
+ {
+  "ean": "7612100018477",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "ovomaltine",
+  "label": "Ovomaltine crunchy cream 360 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=7612100018477"
+  }
+ },
+ {
+  "ean": "80310891",
+  "symbology": "EAN_8",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "kinder",
+  "label": "Kinder Joy",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=80310891"
+  }
+ },
+ {
+  "ean": "7622201400958",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "milka",
+  "label": "Milka chocolate spread 350 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=7622201400958"
+  }
+ },
+ {
+  "ean": "5410018797413",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "kwatta",
+  "label": "Kwatta milk spread 600 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5410018797413"
+  }
+ },
+ {
+  "ean": "8710398160829",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "lays",
+  "label": "Lay's oven baked original 150 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8710398160829"
+  }
+ },
+ {
+  "ean": "3124480196262",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "schweppes",
+  "label": "Schweppes Agrumes 1.5 L",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=3124480196262"
+  }
+ },
+ {
+  "ean": "5410146417771",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "activia",
+  "label": "Activia strawberry 4 x 125 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5410146417771"
+  }
+ },
+ {
+  "ean": "7340001800944",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "barebells",
+  "label": "Barebells milkshake chocolate 330 ml",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=7340001800944"
+  }
+ },
+ {
+  "ean": "7300400481700",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "wasa",
+  "label": "Wasa wholegrain 260 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=7300400481700"
+  }
+ },
+ {
+  "ean": "8005110551215",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "mutti",
+  "label": "Mutti pizza sauce 400 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8005110551215"
+  }
+ },
+ {
+  "ean": "5410256429008",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "tiense",
+  "label": "Tiense extra fine sugar 1 kg",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5410256429008"
+  }
+ },
+ {
+  "ean": "8710908937538",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "knorr",
+  "label": "Knorr chicken bouillon",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8710908937538"
+  }
+ },
+ {
+  "ean": "5038862134583",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "innocent",
+  "label": "Innocent apple & mango 90 cl",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5038862134583"
+  }
+ },
+ {
+  "ean": "8711327501461",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "lipton",
+  "label": "Lipton Green Ice Tea 1.5 L",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8711327501461"
+  }
+ },
+ {
+  "ean": "5420005201557",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "delhaize-herb",
+  "label": "Delhaize parsley 100 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5420005201557"
+  }
+ },
+ {
+  "ean": "3033491279706",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "danette",
+  "label": "Danette chocolate 8 x 125 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=3033491279706"
+  }
+ },
+ {
+  "ean": "5410093181114",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "vandemoortele",
+  "label": "Vandemoortele egg mayonnaise 500 ml",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5410093181114"
+  }
+ },
+ {
+  "ean": "3168930173311",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "doritos",
+  "label": "Doritos natural 160 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=3168930173311"
+  }
+ },
+ {
+  "ean": "8710575159400",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "haribo",
+  "label": "Haribo Chamallow 400 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8710575159400"
+  }
+ },
+ {
+  "ean": "54035850",
+  "symbology": "EAN_8",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "galler",
+  "label": "Galler Dark Raspberry 44 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=54035850"
+  }
+ },
+ {
+  "ean": "3176580026017",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "saint-benoit",
+  "label": "Saint Benoît Brie 200 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=3176580026017"
+  }
+ },
+ {
+  "ean": "3073781069259",
+  "symbology": "EAN_13",
+  "store": "lidl",
+  "privateLabel": false,
+  "group": "boursin",
+  "label": "Boursin garlic & herbs 250 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=3073781069259"
+  }
+ },
+ {
+  "ean": "5202390016981",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": false,
+  "group": "violife",
+  "label": "Violife 140 g",
+  "kind": "a-brand",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5202390016981"
+  }
+ },
+ {
+  "ean": "5400141562040",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141562040",
+  "label": "Boni chocolade broodjes 360g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141562040"
+  }
+ },
+ {
+  "ean": "5400141241051",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141241051",
+  "label": "Boni Cappelletti à la viande 500 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141241051"
+  }
+ },
+ {
+  "ean": "5400141610116",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141610116",
+  "label": "Boni Tortelloni fromage",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141610116"
+  }
+ },
+ {
+  "ean": "5400141243833",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141243833",
+  "label": "BONI Fromage de chèvre 125g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141243833"
+  }
+ },
+ {
+  "ean": "5400141443622",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141443622",
+  "label": "Boni Fromage creux ail et fines herbes",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141443622"
+  }
+ },
+ {
+  "ean": "5400141130416",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141130416",
+  "label": "BONI BONI Ricotta 250g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141130416"
+  }
+ },
+ {
+  "ean": "5400141605365",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141605365",
+  "label": "Boni Pain de mie",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141605365"
+  }
+ },
+ {
+  "ean": "5400141108170",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141108170",
+  "label": "Everyday Choco Quick",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141108170"
+  }
+ },
+ {
+  "ean": "5400141272291",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141272291",
+  "label": "Everyday Cola regular 50 cl",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141272291"
+  }
+ },
+ {
+  "ean": "5400141266757",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141266757",
+  "label": "Boni Lait sans lactose demi-écrémé 1 L",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141266757"
+  }
+ },
+ {
+  "ean": "5400141835908",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141835908",
+  "label": "Boni Selection Tiramisu 4x85g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141835908"
+  }
+ },
+ {
+  "ean": "5400141399691",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": true,
+  "group": "pl:colruyt:5400141399691",
+  "label": "BONI Cassave Kroepoek 60g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=5400141399691"
+  }
+ },
+ {
+  "ean": "5400113727569",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400113727569",
+  "label": "Delhaize Noten Mix Paste Bio 250 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=delhaize&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400112371428",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400112371428",
+  "label": "Delhaize Humus picant 200 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=delhaize&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400113704546",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400113704546",
+  "label": "Delhaize Granola amandes et myrtilles 400 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=delhaize&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400113710653",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400113710653",
+  "label": "Delhaize Havervlokken 500g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=delhaize&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400113647867",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400113647867",
+  "label": "Delhaize Muesli superfruit 500 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=delhaize&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400113658191",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400113658191",
+  "label": "Delhaize Petit Beurre 150 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=delhaize&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400113704508",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400113704508",
+  "label": "Delhaize Granola 350 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=delhaize&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400113739784",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400113739784",
+  "label": "Delhaize Melk Halfvol",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=delhaize&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400601734390",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400601734390",
+  "label": "365 Cream UHT 200 ml",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=365&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400601001157",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400601001157",
+  "label": "365 Cooking salt 1 kg",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=365&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "5400601200123",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": true,
+  "group": "pl:delhaize:5400601200123",
+  "label": "365 Crème en bombe 250 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=delhaize&brands_tags=365&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "20047764",
+  "symbology": "EAN_8",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:20047764",
+  "label": "Lidl Pain campagne gris 800 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=20047764"
+  }
+ },
+ {
+  "ean": "20053222",
+  "symbology": "EAN_8",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:20053222",
+  "label": "Lidl Guanciale 300g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=20053222"
+  }
+ },
+ {
+  "ean": "20960551",
+  "symbology": "EAN_8",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:20960551",
+  "label": "Lidl ChipS hamburger",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=20960551"
+  }
+ },
+ {
+  "ean": "4056489375135",
+  "symbology": "EAN_13",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:4056489375135",
+  "label": "Bon Gelati Mini Almond 432g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=4056489375135"
+  }
+ },
+ {
+  "ean": "20553487",
+  "symbology": "EAN_8",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:20553487",
+  "label": "Sol&Mar Cœur d'artichauts 280g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=20553487"
+  }
+ },
+ {
+  "ean": "4056489849629",
+  "symbology": "EAN_13",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:4056489849629",
+  "label": "Alesto Chips bananes 125 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=4056489849629"
+  }
+ },
+ {
+  "ean": "4056489013709",
+  "symbology": "EAN_13",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:4056489013709",
+  "label": "Lidl Freeway Freeway Colossus Energy Drink 50cl 0,5l",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=4056489013709"
+  }
+ },
+ {
+  "ean": "20330743",
+  "symbology": "EAN_8",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:20330743",
+  "label": "Bio Sonne Norma Plant based no meat balls 35g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=20330743"
+  }
+ },
+ {
+  "ean": "20416690",
+  "symbology": "EAN_8",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:20416690",
+  "label": "Milbona Greek Style Natural Light 2% fat 1000 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=lidl&brands_tags=milbona&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "20810405",
+  "symbology": "EAN_8",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:20810405",
+  "label": "Chef Select Hummus Spicy with red pepper 200 g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=lidl&brands_tags=chef-select&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "4056489572350",
+  "symbology": "EAN_13",
+  "store": "lidl",
+  "privateLabel": true,
+  "group": "pl:lidl:4056489572350",
+  "label": "Dulano Kochschinken 200g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=lidl&brands_tags=dulano&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "8718907768078",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8718907768078",
+  "label": "Albert Heijn Proteïne pudding chocolade 200 gram",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=8718907768078"
+  }
+ },
+ {
+  "ean": "8718907887137",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8718907887137",
+  "label": "Albert Heijn volkoren Havermout fijne vlokken 1000 gram",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "8718907826051",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8718907826051",
+  "label": "Albert Heijn Lekker op brood 5 gram",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "8710400130444",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8710400130444",
+  "label": "Albert Heijn Melk chocopasta",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "2244429002698",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:2244429002698",
+  "label": "Albert Heijn Vloerbrood Volkoren Heel 1 gram",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "8718907874960",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8718907874960",
+  "label": "Albert Heijn Zoete aardappel spread chili madras",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "8718907166843",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8718907166843",
+  "label": "Albert Heijn Fruit Muesli 1000 gram",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "8710400003076",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8710400003076",
+  "label": "Albert Heijn Pindakaas",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "8718906496743",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8718906496743",
+  "label": "Albert Heijn Ongebrande notenmix 200g",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "8718907853491",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8718907853491",
+  "label": "Albert Heijn Spaanse Fuet",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "8718906841970",
+  "symbology": "EAN_13",
+  "store": "albert-heijn",
+  "privateLabel": true,
+  "group": "pl:albert-heijn:8718906841970",
+  "label": "AH BASIC Volle Chocolademelk 1 l",
+  "kind": "private-label",
+  "expectValid": true,
+  "source": {
+   "type": "off-stores",
+   "url": "https://world.openfoodfacts.org/api/v2/search?stores_tags=albert-heijn&brands_tags=ah-basic&fields=code%2Cproduct_name%2Cbrands%2Cquantity&page_size=50&page=1"
+  }
+ },
+ {
+  "ean": "54492578",
+  "symbology": "EAN_8",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "edge-ean8",
+  "label": "Fanta Orange mini can 15 cl (EAN-8)",
+  "kind": "edge-case",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=54492578"
+  }
+ },
+ {
+  "ean": "20330743",
+  "symbology": "EAN_8",
+  "store": "lidl",
+  "privateLabel": false,
+  "group": "edge-ean8",
+  "label": "Vemondo plant-based meatballs (EAN-8)",
+  "kind": "edge-case",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=20330743"
+  }
+ },
+ {
+  "ean": "745110442080",
+  "symbology": "UPC_A",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "edge-upca",
+  "label": "Kazidomi psyllium powder 200 g (UPC-A)",
+  "kind": "edge-case",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=0745110442080"
+  }
+ },
+ {
+  "ean": "01234565",
+  "symbology": "UPC_E",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "edge-upce",
+  "label": "Synthetic UPC-E (zero-suppressed 012345000065)",
+  "kind": "edge-case",
+  "expectValid": true,
+  "source": {
+   "type": "synthetic",
+   "url": "https://www.gs1.org/services/how-calculate-check-digit-manual"
+  }
+ },
+ {
+  "ean": "15400141562047",
+  "symbology": "GTIN_14",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "edge-gtin14",
+  "label": "Synthetic GTIN-14 case wrapper of Boni chocolate rolls 5400141562040",
+  "kind": "edge-case",
+  "expectValid": true,
+  "source": {
+   "type": "synthetic",
+   "url": "https://www.gs1.org/services/how-calculate-check-digit-manual"
+  }
+ },
+ {
+  "ean": "2263622013218",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "edge-variable-weight",
+  "label": "Variable-weight 2x prefix (IberiQ pork)",
+  "kind": "edge-case",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=2263622013218"
+  }
+ },
+ {
+  "ean": "2210280005321",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "edge-variable-weight",
+  "label": "Variable-weight 2x prefix (Orval)",
+  "kind": "edge-case",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=2210280005321"
+  }
+ },
+ {
+  "ean": "2208488004727",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "edge-variable-weight",
+  "label": "Variable-weight 2x prefix (jambon à l'os)",
+  "kind": "edge-case",
+  "expectValid": true,
+  "source": {
+   "type": "open-prices",
+   "url": "https://prices.openfoodfacts.org/api/v1/prices?product_code=2208488004727"
+  }
+ },
+ {
+  "ean": "3017620422004",
+  "symbology": "EAN_13",
+  "store": "delhaize",
+  "privateLabel": false,
+  "group": "edge-bad-checksum",
+  "label": "Nutella 400 g with corrupted check digit",
+  "kind": "edge-case",
+  "expectValid": false,
+  "source": {
+   "type": "synthetic",
+   "url": "https://www.gs1.org/services/how-calculate-check-digit-manual"
+  }
+ },
+ {
+  "ean": "5449000133336",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "edge-bad-checksum",
+  "label": "Coca-Cola Zero 1.5 L with corrupted check digit",
+  "kind": "edge-case",
+  "expectValid": false,
+  "source": {
+   "type": "synthetic",
+   "url": "https://www.gs1.org/services/how-calculate-check-digit-manual"
+  }
+ },
+ {
+  "ean": "5400141562041",
+  "symbology": "EAN_13",
+  "store": "colruyt",
+  "privateLabel": false,
+  "group": "edge-bad-checksum",
+  "label": "Boni chocolate rolls with corrupted check digit",
+  "kind": "edge-case",
+  "expectValid": false,
+  "source": {
+   "type": "synthetic",
+   "url": "https://www.gs1.org/services/how-calculate-check-digit-manual"
+  }
+ }
+]

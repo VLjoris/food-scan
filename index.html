@@ -54,6 +54,18 @@
       <button type="button" id="u-cancel">Skip</button>
     </div>
   </form>
+
+  <section id="debug" class="card debug" hidden>
+    <div>raw: <code data-testid="debug-raw" id="debug-raw"></code></div>
+    <div>format: <code data-testid="debug-format" id="debug-format"></code></div>
+    <div>ean: <code data-testid="debug-ean" id="debug-ean"></code></div>
+    <div>state: <code data-testid="debug-state" id="debug-state"></code></div>
+    <div>name: <code data-testid="debug-name" id="debug-name"></code></div>
+    <div>flags: <span id="debug-flags"></span></div>
+    <div>OFF HTTP: <span id="debug-http"></span> · latency: <span id="debug-latency"></span></div>
+    <details><summary>Mapped fields</summary><pre id="debug-mapped"></pre></details>
+    <details><summary>Raw OFF fields</summary><pre id="debug-rawoff"></pre></details>
+  </section>
 </main>
 
 <main id="view-history" hidden>

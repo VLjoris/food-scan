@@ -1,9 +1,9 @@
-const CACHE = "be-scan-v1";
+const CACHE = "be-scan-v2";
 const ASSETS = ["./", "index.html", "app.js", "lib.js", "style.css", "manifest.webmanifest",
   "vendor/zxing-library.min.js", "icon-180.png", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS.map(a => new Request(a, { cache: "reload" })))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", e => {
   e.waitUntil(caches.keys()
