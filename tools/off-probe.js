@@ -211,7 +211,7 @@ function report(keys, fetched) {
   w(table(["EAN (fixture)", "symbology", "lookup key", "variable-weight", "BE prefix", "OFF found", "name", "source"],
     edge.map(r => [r.ean, r.symbology, r.key, Lib.isVariableWeight(r.key) ? "yes" : "no", Lib.isBelgianPrefix(r.key) ? "yes" : "no", r.hit ? "yes" : "no", r.hit ? r.m.name : "", r.source.type])));
   const vw = E.filter(r => Lib.isVariableWeight(r.key));
-  w(`Variable-weight (2x prefix) rows: ${vw.length}; found in OFF: ${vw.filter(r => r.hit).length}. These codes embed a price/weight, are store-internal, and are not in OFF — the app should detect them with \`Lib.isVariableWeight\` and not offer an OFF lookup.\n`);
+  w(`Variable-weight (2x prefix) rows: ${vw.length}; found in OFF: ${vw.filter(r => r.hit).length}. These codes embed a price/weight and are store-internal; any OFF hit is an accidental/community-contributed record for one store's item and must not be trusted as a product identity (the name/quantity may describe a single weighed pack). The app should flag them with \`Lib.isVariableWeight\`.\n`);
   w("UPC-A handling:\n");
   rawUpc.forEach(u => {
     const c = Lib.normalizeEan(u, "UPC_A"), a = snap[c], b = snap[u];
@@ -227,11 +227,11 @@ function report(keys, fetched) {
   const h = unbiased.filter(r => r.hit);
   w(`Based on the numbers above (unbiased hit rate ${cell(h.length, unbiased.length)}; NL name ${pct(h.filter(r => r.m.completeness.nameNl).length, h.length)}, FR ${pct(h.filter(r => r.m.completeness.nameFr).length, h.length)}, brand ${pct(h.filter(r => r.m.completeness.brand).length, h.length)}, quantity ${pct(h.filter(r => r.m.completeness.quantity).length, h.length)}, image ${pct(h.filter(r => r.m.hasImage).length, h.length)} of hits):\n`);
   w("1. **Keep the canonical EAN-13/EAN-8 as the only primary key.** Same EAN ⇒ same OFF record at every store, so store is an attribute of a sighting/price, never of the product key.");
-  w("2. **Add an optional local `group`/canonical-name field** (e.g. `nutella`) only as a user-level link between EANs: different sizes/pack types are different EANs with similar but not identical names (section 5), and retailer-equal products can carry different EANs (section 4). Do not try to infer it from OFF.");
+  w("2. **Add an optional local `group`/canonical-name field** (e.g. `nutella`) only as a user-level link between EANs: different sizes/pack types are different EANs with similar but not identical names (section 5), and the same-labelled product could carry different EANs at different stores (section 4 lists " + flagged.length + " such cases in this fixture). Do not try to infer it from OFF.");
   w("3. **Store user-override names** (`userName`) separate from the cached OFF data, because OFF names carry suffixes, caps or wrong quantities (section 6) and misses need a manual name anyway. Display precedence: userName → OFF name chain.");
   w("4. **Name fallback chain nl → fr → en → generic** (as `Lib.pickName`, after canonical `product_name`), with the caller's UI language first; no single language field is complete (section 3).");
   w("5. **Display `brand + quantity` next to the name** (separately from the name) and treat quantity as untrusted when ≤1 g or missing; prefer the fixture/user value then.");
-  w("6. **Do not look up variable-weight (2x) codes**; for OFF misses (esp. private label) fall back to manual naming and optionally offer an OFF contribution link. Cache snapshots locally and tolerate 503/429 with retry.\n");
+  w("6. **Flag variable-weight (2x) codes** (OFF coverage is spotty and not authoritative; show the OFF name only as a hint); for OFF misses (esp. private label) fall back to manual naming and optionally offer an OFF contribution link. Cache snapshots locally and tolerate 503/429 with retry.\n");
   return o.join("\n") + "\n";
 }
 

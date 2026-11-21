@@ -23,7 +23,22 @@ Share → **Add to Home Screen**. Launch it from the icon, tap **Start camera**,
 > Pages sites on the free plan are public; the repo holds no personal data — your products live only on the phone.
 
 ## Local testing on desktop
-`python3 -m http.server 8000` → http://localhost:8000 (localhost counts as secure for the camera). Unit tests: `node test.js`.
+`python3 -m http.server 8000` → http://localhost:8000 (localhost counts as secure for the camera).
+
+## Local POC testing
+Findings and data sources: [docs/off-findings.md](docs/off-findings.md).
+
+| Command | What it does |
+|---|---|
+| `node test.js` | Unit tests for `lib.js` |
+| `node tools/decode-test.js [-v]` | Renders fixture barcodes (clean + degraded) and decodes them with the vendored ZXing |
+| `node tools/off-probe.js [--refresh]` | Checks fixtures against Open Food Facts; `--refresh` re-fetches `test/fixtures/off-snapshot.json` |
+| `uv run --with playwright python tools/e2e_camera.py [--live] [--limit N]` | End-to-end: headless Chromium, fake camera fed with rendered barcodes → asserts barcode → name (~15 s) |
+| `python3 -m http.server 8000` → `/tools/barcode-sheet.html` | Printable/on-screen barcode sheet to scan with a real phone |
+
+- e2e prerequisites: `uv`, `node`, and once `uv run --with playwright playwright install chromium`. OFF is served from the snapshot unless `--live`.
+- Append `?debug=1` to the app URL for a debug panel (raw text, format, EAN, state, name, OFF response); it persists, `?debug=0` turns it off.
+- UPC-E is **not decodable** by the vendored ZXing (reported as skipped/known-failing in the tools).
 
 ## Notes
 - Data lives in the installed app's storage. Use **Backup JSON** now and then; iOS can purge website data after long inactivity or if Safari data is cleared.

@@ -285,6 +285,47 @@
    "status_verbose": "product found"
   }
  },
+ "54492578": {
+  "fetchedAt": "2026-11-21T15:34:03.021Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "54492578",
+   "product": {
+    "brands": "Fanta",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:plant-based-foods-and-beverages",
+     "en:beverages",
+     "en:fruit-based-foods-and-beverages",
+     "en:non-alcoholic-beverages",
+     "en:plant-based-beverages",
+     "en:soft-drinks",
+     "en:artificially-sweetened-beverages",
+     "en:carbonated-drinks",
+     "en:flavoured-soft-drinks",
+     "en:fruit-based-beverages",
+     "en:sodas",
+     "en:fruit-sodas",
+     "en:orange-soft-drinks",
+     "en:sweetened-beverages"
+    ],
+    "code": "54492578",
+    "countries_tags": [
+     "en:belgium",
+     "en:france",
+     "en:united-kingdom"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/000/005/449/2578/front_fr.3.400.jpg",
+    "nutriscore_grade": "unknown",
+    "product_name": "Fanta Orange Mini Can",
+    "product_name_fr": "Fanta Orange Mini Can",
+    "quantity": "15 cl",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
  "80176800": {
   "fetchedAt": "2026-11-21T15:28:44.067Z",
   "httpStatus": 200,
@@ -401,6 +442,149 @@
    },
    "status": 1,
    "status_verbose": "product found"
+  }
+ },
+ "0012345000065": {
+  "fetchedAt": "2026-11-21T15:34:11.123Z",
+  "httpStatus": 404,
+  "body": {
+   "code": "0012345000065",
+   "status": 0,
+   "status_verbose": "product not found"
+  }
+ },
+ "0745110442080": {
+  "fetchedAt": "2026-11-21T15:34:05.056Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "0745110442080",
+   "product": {
+    "brands": "Kazidomi",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:cooking-helpers",
+     "en:dietary-supplements",
+     "en:psyllium"
+    ],
+    "code": "0745110442080",
+    "countries_tags": [
+     "en:france",
+     "en:united-states"
+    ],
+    "generic_name": "Poudre de Psyllium Bio 200g",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/074/511/044/2080/front_en.9.400.jpg",
+    "nutriscore_grade": "not-applicable",
+    "product_name": "Psyllium powder",
+    "product_name_en": "Poudre de Psyllium Bio 200g",
+    "quantity": "200 g",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "15400141562047": {
+  "fetchedAt": "2026-11-21T15:34:13.167Z",
+  "httpStatus": 404,
+  "body": {
+   "code": "15400141562047",
+   "status": 0,
+   "status_verbose": "product not found"
+  }
+ },
+ "2208488004727": {
+  "fetchedAt": "2026-11-21T15:34:27.340Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "2208488004727",
+   "product": {
+    "code": "2208488004727",
+    "countries_tags": [
+     "en:ireland"
+    ],
+    "nutriscore_grade": "unknown",
+    "product_name": "Jambon à l'os",
+    "product_name_en": "Jambon à l'os"
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "2210280005321": {
+  "fetchedAt": "2026-11-21T15:34:21.271Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "2210280005321",
+   "product": {
+    "categories_tags": [
+     "en:dairies",
+     "en:fermented-foods",
+     "en:fermented-milk-products",
+     "en:cheeses",
+     "en:cow-cheeses",
+     "en:pasteurised-products",
+     "en:pasteurized-cheeses",
+     "en:abbaye-cheeses"
+    ],
+    "code": "2210280005321",
+    "countries_tags": [
+     "en:belgium"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/221/028/000/5321/front_fr.3.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Orval",
+    "product_name_fr": "Orval",
+    "quantity": "197g",
+    "stores_tags": [
+     "Delhaize"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "2244429002698": {
+  "fetchedAt": "2026-11-21T15:33:32.626Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "2244429002698",
+   "product": {
+    "brands": "Albert Heijn",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:breads"
+    ],
+    "code": "2244429002698",
+    "countries_tags": [
+     "en:finland",
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/224/442/900/2698/front_en.3.400.jpg",
+    "nutriscore_grade": "a",
+    "product_name": "Vloerbrood Volkoren Heel",
+    "product_name_en": "Vloerbrood Volkoren Heel",
+    "product_name_nl": "Vloerbrood Volkoren Heel",
+    "quantity": "1 gram",
+    "stores_tags": [
+     "albert-heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "2263622013218": {
+  "fetchedAt": "2026-11-21T15:34:19.228Z",
+  "httpStatus": 404,
+  "body": {
+   "code": "2263622013218",
+   "status": 0,
+   "status_verbose": "product not found"
   }
  },
  "3017620422003": {
@@ -2359,6 +2543,37 @@
    "status_verbose": "product found"
   }
  },
+ "745110442080": {
+  "fetchedAt": "2026-11-21T15:34:29.384Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "0745110442080",
+   "product": {
+    "brands": "Kazidomi",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:cooking-helpers",
+     "en:dietary-supplements",
+     "en:psyllium"
+    ],
+    "code": "0745110442080",
+    "countries_tags": [
+     "en:france",
+     "en:united-states"
+    ],
+    "generic_name": "Poudre de Psyllium Bio 200g",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/074/511/044/2080/front_en.9.400.jpg",
+    "nutriscore_grade": "not-applicable",
+    "product_name": "Psyllium powder",
+    "product_name_en": "Poudre de Psyllium Bio 200g",
+    "quantity": "200 g",
+    "stores_tags": []
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
  "7612100018477": {
   "fetchedAt": "2026-11-21T15:29:30.850Z",
   "httpStatus": 200,
@@ -2796,6 +3011,46 @@
    "status_verbose": "product found"
   }
  },
+ "8710400003076": {
+  "fetchedAt": "2026-11-21T15:33:46.797Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8710400003076",
+   "product": {
+    "brands": "Albert Heijn",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:legumes-and-their-products",
+     "en:spreads",
+     "en:plant-based-spreads",
+     "en:nuts-and-their-products",
+     "en:oilseed-purees",
+     "en:legume-butters",
+     "en:nut-butters",
+     "en:peanut-butters"
+    ],
+    "code": "8710400003076",
+    "countries_tags": [
+     "en:france",
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/040/000/3076/front_nl.7.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Pindakaas",
+    "product_name_en": "Smeuïge pindakaas",
+    "product_name_fr": "Pindakaas Erdnussbutter",
+    "product_name_nl": "Pindakaas",
+    "quantity": "",
+    "stores_tags": [
+     "Albert Heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
  "8710400130444": {
   "fetchedAt": "2026-11-21T15:33:30.585Z",
   "httpStatus": 200,
@@ -2936,6 +3191,118 @@
    "status_verbose": "product found"
   }
  },
+ "8718906496743": {
+  "fetchedAt": "2026-11-21T15:33:48.847Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8718906496743",
+   "product": {
+    "brands": "Albert Heijn",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:nuts-and-their-products",
+     "en:nuts"
+    ],
+    "code": "8718906496743",
+    "countries_tags": [
+     "en:netherlands"
+    ],
+    "ecoscore_tags": [
+     "unknown"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/890/649/6743/front_fr.6.400.jpg",
+    "nutriscore_grade": "d",
+    "product_name": "Ongebrande notenmix",
+    "product_name_fr": "Ongebrande notenmix",
+    "quantity": "200g",
+    "stores_tags": [
+     "Albert Heijn",
+     "ah"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8718906841970": {
+  "fetchedAt": "2026-11-21T15:33:56.954Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8718906841970",
+   "product": {
+    "brands": "AH BASIC",
+    "categories_tags": [
+     "en:beverages-and-beverages-preparations",
+     "en:beverages",
+     "en:dairies",
+     "en:dairy-drinks",
+     "en:flavoured-milks",
+     "en:chocolate-milks",
+     "en:sweetened-beverages"
+    ],
+    "code": "8718906841970",
+    "countries_tags": [
+     "en:belgium",
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/890/684/1970/front_nl.3.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Volle Chocolademelk",
+    "product_name_en": "Volle Chocolademelk",
+    "product_name_nl": "Volle Chocolademelk",
+    "quantity": "1 l",
+    "stores_tags": [
+     "Albert Heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8718907166843": {
+  "fetchedAt": "2026-11-21T15:33:40.734Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8718907166843",
+   "product": {
+    "brands": "Albert Heijn",
+    "categories_tags": [
+     "en:plant-based-foods-and-beverages",
+     "en:plant-based-foods",
+     "en:breakfasts",
+     "en:cereals-and-potatoes",
+     "en:cereals-and-their-products",
+     "en:breakfast-cereals",
+     "en:cereals-with-fruits",
+     "en:mueslis",
+     "en:mueslis-with-fruits",
+     "en:Krokante muesli",
+     "en:Ontbijtgranen",
+     "en:beleg"
+    ],
+    "code": "8718907166843",
+    "countries_tags": [
+     "en:belgium",
+     "en:netherlands"
+    ],
+    "generic_name": "Muesli met gedroogd fruit en 4% bananenchips",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/890/716/6843/front_nl.24.400.jpg",
+    "nutriscore_grade": "b",
+    "product_name": "Fruit Muesli",
+    "product_name_en": "Fruit Muesli",
+    "product_name_nl": "Fruit Muesli",
+    "quantity": "1000 gram",
+    "stores_tags": [
+     "albert-heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
  "8718907768078": {
   "fetchedAt": "2026-11-21T15:33:16.298Z",
   "httpStatus": 200,
@@ -2995,6 +3362,63 @@
     "product_name_en": "Lekker op brood",
     "product_name_nl": "Lekker op brood",
     "quantity": "5 gram",
+    "stores_tags": [
+     "Albert Heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8718907853491": {
+  "fetchedAt": "2026-11-21T15:33:54.915Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8718907853491",
+   "product": {
+    "brands": "Albert Heijn",
+    "categories_tags": [
+     "nl:Spaanse fuet"
+    ],
+    "code": "8718907853491",
+    "countries_tags": [
+     "en:netherlands"
+    ],
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/890/785/3491/front_nl.4.400.jpg",
+    "nutriscore_grade": "e",
+    "product_name": "Spaanse Fuet",
+    "product_name_en": "Spaanse Fuet",
+    "product_name_nl": "Spaanse Fuet",
+    "stores_tags": [
+     "Albert Heijn"
+    ]
+   },
+   "status": 1,
+   "status_verbose": "product found"
+  }
+ },
+ "8718907874960": {
+  "fetchedAt": "2026-11-21T15:33:38.690Z",
+  "httpStatus": 200,
+  "body": {
+   "code": "8718907874960",
+   "product": {
+    "brands": "Albert Heijn",
+    "categories_tags": [
+     "en:spreads",
+     "en:salted-spreads"
+    ],
+    "code": "8718907874960",
+    "countries_tags": [
+     "en:netherlands"
+    ],
+    "generic_name": "",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/871/890/787/4960/front_nl.8.400.jpg",
+    "nutriscore_grade": "c",
+    "product_name": "Zoete aardappel spread chili madras",
+    "product_name_en": "Zoete aardappel spread chili madras",
+    "product_name_nl": "Zoete aardappel spread chili madras",
+    "quantity": "",
     "stores_tags": [
      "Albert Heijn"
     ]
