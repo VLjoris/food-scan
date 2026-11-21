@@ -10,6 +10,11 @@ on the phone (IndexedDB) so the next scan resolves locally.
 3. Lookup order: local DB (your entries win) → Open Food Facts v2 (`/api/v2/product/{ean}.json`) → prompt for name. OFF hits are cached locally. A network failure is not treated as "unknown", so you aren't asked to type a name while offline.
 4. History tab: filter, delete, export CSV (all product names), JSON backup/restore.
 
+## Inventory & name overrides
+- **Scan modes** (Scan tab): *Look up*, *+1 Stock*, *−1 Used*. Rename any product; your name overrides Open Food Facts.
+- **Stock tab:** counts per item grouped by category, −/+ buttons, non-barcode items, copy/share a menu-ideas list, copy/download JSON.
+- Several phones can share one inventory and names via a private data repo; see [docs/storage.md](docs/storage.md) for architecture, event log, token setup and privacy.
+
 ## Install on iPhone
 Camera access requires HTTPS, so host it (GitHub Pages is free):
 

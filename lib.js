@@ -26,6 +26,7 @@ const Lib = {
     const names = { nl: t(p.product_name_nl), fr: t(p.product_name_fr), en: t(p.product_name_en) };
     return {
       name, brand, quantity, names,
+      category: Lib.coarseCategory(p.categories_tags),
       hasImage: !!p.image_front_url,
       completeness: { name: !!name, nameNl: !!names.nl, nameFr: !!names.fr, brand: !!brand, quantity: !!quantity },
     };
@@ -60,6 +61,120 @@ const Lib = {
     if (p.product_name?.trim()) return p.product_name.trim();
     for (const l of langs) if (p["product_name_" + l]?.trim()) return p["product_name_" + l].trim();
     return (p.generic_name || "").trim();
+  },
+
+  CATEGORIES: [
+    { key: "fruit-veg", label: "Fruit & vegetables" },
+    { key: "dairy-eggs", label: "Dairy & eggs" },
+    { key: "meat-fish", label: "Meat & fish" },
+    { key: "bakery", label: "Bread & bakery" },
+    { key: "pantry", label: "Pantry" },
+    { key: "frozen", label: "Frozen" },
+    { key: "drinks", label: "Drinks" },
+    { key: "snacks-sweets", label: "Snacks & sweets" },
+    { key: "other", label: "Other" },
+  ],
+
+  // Ordered rules: the first match wins (e.g. frozen before the food type).
+  coarseCategory(tags) {
+    const s = (Array.isArray(tags) ? tags : []).map(x => String(x).toLowerCase().replace(/^[a-z]{2}:/, "")).join(" ");
+    if (!s) return "other";
+    const rules = [
+      ["frozen", /frozen|surgel|diepvries/],
+      ["drinks", /beverage|drink|water|juice|soda|beer|wine|coffee|\btea\b|lemonade/],
+      ["dairy-eggs", /dairy|milk|cheese|yogurt|yoghurt|butter|cream|\begg/],
+      ["meat-fish", /meat|fish|seafood|poultry|chicken|beef|pork|sausage|ham\b|charcuterie/],
+      ["fruit-veg", /fruit|vegetable|legume|salad|potato/],
+      ["bakery", /bread|bakery|baguette|pastr|viennoiserie|croissant/],
+      ["snacks-sweets", /snack|sweet|chocolate|candy|candies|biscuit|cookie|cake|confection|chips|crisps|dessert/],
+      ["pantry", /pasta|rice|cereal|flour|sauce|oil|canned|spice|condiment|sugar|grain|noodle|soup|spread|jam|honey|plant-based|groceries/],
+    ];
+    for (const [k, re] of rules) if (re.test(s)) return k;
+    return "other";
+  },
+
+  makeEvent(dev, seq, type, fields, t = Date.now()) {
+    return { id: `${dev}:${seq}`, t, dev, type, ...fields };
+  },
+
+  _cmpEv(a, b) {
+    return (a.t - b.t) || (a.dev < b.dev ? -1 : a.dev > b.dev ? 1 : 0) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+  },
+
+  mergeEvents(a, b) {
+    const m = new Map();
+    for (const e of [...(a || []), ...(b || [])]) if (e && e.id != null && !m.has(e.id)) m.set(e.id, e);
+    return [...m.values()].sort(Lib._cmpEv);
+  },
+
+  reduceEvents(events) {
+    const stock = {}, names = {};
+    const seen = new Set();
+    const valid = [];
+    for (const e of events || []) {
+      if (!e || !e.id || !e.item || !e.type || seen.has(e.id)) continue;
+      if (e.type === "stock" && !Number.isInteger(e.delta)) continue;
+      if (e.type === "name" && typeof e.name !== "string") continue;
+      seen.add(e.id);
+      valid.push(e);
+    }
+    valid.sort(Lib._cmpEv);
+    for (const e of valid) {
+      if (e.type === "stock") stock[e.item] = (stock[e.item] || 0) + e.delta;
+      else if (e.type === "name") {
+        if (e.name === "") delete names[e.item];
+        else names[e.item] = { name: e.name, category: e.category || "", t: e.t, dev: e.dev };
+      }
+    }
+    return { stock, names };
+  },
+
+  resolveItem(item, state, product) {
+    const ov = state?.names?.[item];
+    const isX = item.startsWith("x:");
+    const sum = state?.stock?.[item] || 0;
+    const name = ov?.name || product?.name || (isX ? item.slice(2) : item);
+    const category = ov?.category || product?.category || "other";
+    const r = { item, name, category, isOverride: !!ov, count: Math.max(0, sum) };
+    if (!isX) r.ean = item;
+    return r;
+  },
+
+  inventoryRows(state, products, { includeZero = false } = {}) {
+    const byEan = Array.isArray(products) ? Object.fromEntries(products.filter(p => p && p.ean).map(p => [p.ean, p])) : products || {};
+    const items = new Set([...Object.keys(state?.stock || {}), ...Object.keys(state?.names || {})]);
+    const order = k => { const i = Lib.CATEGORIES.findIndex(c => c.key === k); return i < 0 ? Lib.CATEGORIES.length : i; };
+    return [...items].map(i => Lib.resolveItem(i, state, byEan[i])).filter(r => includeZero || r.count > 0)
+      .sort((a, b) => order(a.category) - order(b.category) || a.name.localeCompare(b.name));
+  },
+
+  menuText(rows, lang = "nl") {
+    const rs = (rows || []).filter(r => r.count > 0);
+    const lines = [];
+    for (const c of Lib.CATEGORIES) {
+      const g = rs.filter(r => (Lib.CATEGORIES.some(x => x.key === r.category) ? r.category : "other") === c.key);
+      if (!g.length) continue;
+      lines.push(c.label + ":", ...g.map(r => `- ${r.name} ×${r.count}`), "");
+    }
+    const prompt = lang === "en"
+      ? "Suggest a few menus or recipes I can make using only these ingredients plus basic pantry staples (salt, pepper, oil, flour, sugar, spices). Prefer using up what I have most of."
+      : "Stel een paar menu's of recepten voor die ik kan maken met alleen deze ingrediënten plus basis keukenvoorraad (zout, peper, olie, bloem, suiker, kruiden). Gebruik bij voorkeur op wat ik het meest heb.";
+    return lines.join("\n") + prompt + "\n";
+  },
+
+  inventoryJson(rows) {
+    return {
+      generatedAt: new Date().toISOString(),
+      items: (rows || []).filter(r => r.count > 0).map(r => ({
+        item: r.item, ean: r.ean || null, name: r.name, category: r.category, count: r.count, isOverride: !!r.isOverride,
+      })),
+    };
+  },
+
+  itemIdForName(name) {
+    const slug = String(name || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    return "x:" + (slug || "item");
   },
 
   csvEscape(v) {

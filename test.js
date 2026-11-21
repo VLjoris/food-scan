@@ -28,4 +28,49 @@ assert.deepStrictEqual([m.name, m.brand, m.quantity, m.hasImage, m.names.fr, m.n
 assert.deepStrictEqual(m.completeness, { name: true, nameNl: false, nameFr: true, brand: true, quantity: true });
 const e = L.mapOffProduct({ status: 1, product: {} });
 assert.deepStrictEqual([e.name, e.brand, e.hasImage, e.completeness.name], ["", "", false, false]);
+
+// inventory model
+const ev = (dev, seq, type, f, t) => L.makeEvent(dev, seq, type, f, t);
+const E = [ev("a", 1, "stock", { item: "111", delta: 2 }, 1), ev("b", 1, "stock", { item: "111", delta: -5 }, 2),
+  ev("a", 2, "name", { item: "111", name: "Old", category: "drinks" }, 3), ev("b", 2, "name", { item: "111", name: "New" }, 3),
+  { id: "z", item: "111", type: "stock", delta: 1.5 }, { type: "stock", item: "1", delta: 1 }];
+const mAB = L.mergeEvents(E.slice(0, 2), E.slice(2)), mBA = L.mergeEvents(E.slice(2), E.slice(0, 2));
+assert.deepStrictEqual(mAB, mBA);
+assert.deepStrictEqual(L.mergeEvents(mAB, mAB), mAB);
+assert.strictEqual(mAB.length, 5);
+const st = L.reduceEvents(mAB);
+assert.deepStrictEqual(st, L.reduceEvents([...mAB].reverse().concat(mAB)));
+assert.strictEqual(st.stock["111"], -3);
+assert.strictEqual(st.names["111"].name, "New"); // same t, dev b > a
+assert.strictEqual(L.resolveItem("111", st).count, 0);
+const st2 = L.reduceEvents([...E, ev("a", 3, "name", { item: "111", name: "" }, 9)]);
+assert.ok(!("111" in st2.names));
+assert.deepStrictEqual(L.reduceEvents([ev("a", 4, "name", { item: "111", name: "" }, 1), ev("a", 5, "name", { item: "111", name: "X" }, 2)]).names["111"].name, "X");
+const prod = { name: "Cola", category: "drinks" };
+const st3 = L.reduceEvents([ev("a", 1, "stock", { item: "111", delta: 3 }, 1)]);
+assert.deepStrictEqual(L.resolveItem("111", st3, prod), { item: "111", ean: "111", name: "Cola", category: "drinks", isOverride: false, count: 3 });
+assert.strictEqual(L.resolveItem("111", st3).name, "111");
+assert.strictEqual(L.resolveItem("111", st3).category, "other");
+const st4 = L.reduceEvents([ev("a", 1, "stock", { item: "111", delta: 3 }, 1), ev("a", 2, "name", { item: "111", name: "Mine", category: "dairy-eggs" }, 2),
+  ev("a", 3, "stock", { item: L.itemIdForName("Crème Brûlée!"), delta: 1 }, 3), ev("a", 4, "name", { item: "x:creme-brulee", name: "Crème brûlée", category: "snacks-sweets" }, 4)]);
+const r4 = L.resolveItem("111", st4, prod);
+assert.deepStrictEqual([r4.name, r4.category, r4.isOverride], ["Mine", "dairy-eggs", true]);
+assert.strictEqual(L.itemIdForName("Crème Brûlée!"), "x:creme-brulee");
+assert.strictEqual(L.itemIdForName("???"), "x:item");
+const rx = L.resolveItem("x:creme-brulee", st4);
+assert.ok(!("ean" in rx) && rx.name === "Crème brûlée");
+const rows = L.inventoryRows(st4, [{ ean: "111", name: "Cola", category: "drinks" }]);
+assert.deepStrictEqual(rows.map(r => r.item), ["111", "x:creme-brulee"]);
+assert.strictEqual(L.inventoryRows(L.reduceEvents([ev("a", 1, "stock", { item: "9", delta: -1 }, 1)]), {}, { includeZero: true }).length, 1);
+const txt = L.menuText(rows);
+assert.ok(txt.includes("- Mine ×3") && txt.includes("- Crème brûlée ×1") && /ingrediënten/.test(txt));
+assert.ok(/ingredients/.test(L.menuText(rows, "en")) && !L.menuText([{ ...rows[0], count: 0 }]).includes("- "));
+const js = L.inventoryJson(rows);
+assert.deepStrictEqual([js.items.length, js.items[0].ean, js.items[1].ean, typeof js.generatedAt], [2, "111", null, "string"]);
+assert.strictEqual(L.coarseCategory(["en:beverages", "en:dairies"]), "drinks");
+assert.strictEqual(L.coarseCategory(["en:frozen-foods", "en:meats"]), "frozen");
+assert.strictEqual(L.coarseCategory(["en:cheeses"]), "dairy-eggs");
+assert.strictEqual(L.coarseCategory(["en:xyz"]), "other");
+assert.strictEqual(L.coarseCategory(), "other");
+assert.strictEqual(L.mapOffProduct({ status: 1, product: { categories_tags: ["en:breads"] } }).category, "bakery");
 console.log("ok");

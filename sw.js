@@ -1,5 +1,5 @@
-const CACHE = "be-scan-v2";
-const ASSETS = ["./", "index.html", "app.js", "lib.js", "style.css", "manifest.webmanifest",
+const CACHE = "be-scan-v3";
+const ASSETS = ["./", "index.html", "app.js", "lib.js", "sync.js", "style.css", "manifest.webmanifest",
   "vendor/zxing-library.min.js", "icon-180.png", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {

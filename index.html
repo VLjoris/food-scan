@@ -18,6 +18,7 @@
   <h1>🇧🇪 Food Scanner</h1>
   <nav>
     <button id="tab-scan" class="active">Scan</button>
+    <button id="tab-stock">Stock</button>
     <button id="tab-history">History</button>
   </nav>
 </header>
@@ -31,6 +32,11 @@
     <button id="btn-start" class="primary">Start camera</button>
     <button id="btn-torch" hidden>🔦</button>
   </div>
+  <div class="row modes">
+    <button id="mode-look" class="active">Look up</button>
+    <button id="mode-in">+1 Stock</button>
+    <button id="mode-out">−1 Used</button>
+  </div>
   <form id="manual" class="row">
     <input id="manual-ean" inputmode="numeric" pattern="[0-9]*" placeholder="Or type EAN (8/12/13 digits)">
     <button>Look up</button>
@@ -39,9 +45,18 @@
 
   <section id="result" class="card" hidden>
     <div class="ean" id="r-ean"></div>
-    <div class="name" id="r-name"></div>
+    <div class="name"><span id="r-name"></span> <span class="badge" id="r-override" hidden>override</span></div>
     <div class="meta" id="r-meta"></div>
     <div class="badge" id="r-source"></div>
+    <div class="row stockctl">
+      <button id="r-minus">−</button>
+      <span>In stock: <b id="r-count">0</b></span>
+      <button id="r-plus">+</button>
+    </div>
+    <form id="rename">
+      <input id="rn-name" placeholder="Rename (empty = use original name)" autocomplete="off">
+      <div class="row"><select id="rn-cat"></select><button>Rename</button></div>
+    </form>
   </section>
 
   <form id="unknown" class="card" hidden>
@@ -49,6 +64,7 @@
     <p>Not found in Open Food Facts. Enter the name once &mdash; it will be remembered.</p>
     <input id="u-name" placeholder="Product name" required autocomplete="off">
     <input id="u-brand" placeholder="Brand / supermarket (optional)" autocomplete="off">
+    <select id="u-cat"></select>
     <div class="row">
       <button class="primary">Save</button>
       <button type="button" id="u-cancel">Skip</button>
@@ -68,6 +84,24 @@
   </section>
 </main>
 
+<main id="view-stock" hidden>
+  <div class="row">
+    <button id="btn-copy-menu" class="primary">Copy for menu ideas</button>
+    <button id="btn-share" hidden>Share</button>
+  </div>
+  <div class="row">
+    <button id="btn-copy-json">Copy JSON</button>
+    <button id="btn-dl-json">Download JSON</button>
+  </div>
+  <p id="stock-msg" class="status"></p>
+  <label class="row"><input id="stock-show-empty" type="checkbox"> Show empty</label>
+  <div id="stock-list"></div>
+  <form id="add-form" class="card">
+    <input id="add-name" placeholder="Add item without barcode" autocomplete="off" required>
+    <div class="row"><select id="add-cat"></select><button class="primary">Add +1</button></div>
+  </form>
+</main>
+
 <main id="view-history" hidden>
   <div class="row">
     <button id="btn-csv">Export CSV</button>
@@ -76,10 +110,23 @@
   </div>
   <input id="filter" placeholder="Filter…">
   <ul id="list"></ul>
+  <form id="sync-form" class="card">
+    <h3>Sync settings</h3>
+    <input id="sync-owner" placeholder="GitHub owner" autocomplete="off">
+    <input id="sync-repo" placeholder="Data repo" autocomplete="off">
+    <input id="sync-token" type="password" placeholder="Token (fine-grained, Contents R/W)" autocomplete="off">
+    <input id="sync-label" placeholder="Device label (optional)" autocomplete="off">
+    <div class="row">
+      <button class="primary">Save</button>
+      <button type="button" id="sync-now">Sync now</button>
+    </div>
+    <p id="sync-status" class="status"></p>
+  </form>
 </main>
 
 <script src="vendor/zxing-library.min.js"></script>
 <script src="lib.js"></script>
+<script src="sync.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
